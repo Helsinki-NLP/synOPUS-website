@@ -42,7 +42,6 @@
   ?>helsinki.fi
   &gt;</p>
 
-  <!-- <p> <?php include("search.php"); ?> --></p>
   <a name="download" id="download"></a>
 
 
@@ -234,7 +233,7 @@
 
         <td valign="top">A text book on alignment:<br>
         <br>
-        <a href="http://www.morganclaypool.com/doi/abs/10.2200/S00367ED1V01Y201106HLT014"><img border="0" src="/img/bitextalign.jpg" height="200"></a></td>
+        <a href="http://www.morganclaypool.com/doi/abs/10.2200/S00367ED1V01Y201106HLT014"><img border="0" src="img/bitextalign.jpg" height="200"></a></td>
       </tr>
     </table>
   </div>
