@@ -34,10 +34,6 @@
 
   <h1><img src="img/opus_medium.png" width="160"> ... the open corpus of synthetic parallel corpora</h1>
 
-<!--
-<p <p style="color:red;font-weight:bold">IMPORTANT NOTE: ALL DOWNLOADS ARE NOT AVAILABLE AT THE MOMENT. WE ARE WORKING ON THE PROBLEM ...</p>
--->
-
   <p>OPUS is a growing collection of translated texts. synOPUS is a new edition that provides synthetic data sets, i.e. data that has (partially) been generated, for example, by translating text into other languages using machine translation tools or large language models. We used several tools to compile the current collection. All pre-processing is done automatically. No manual corrections have been carried out.</p>
 
   <p>The synOPUS collection is growing! Check this page from time to time to see new data arriving ...<br>
@@ -46,19 +42,9 @@
   ?>helsinki.fi
   &gt;</p>
 
-  <p><?php include("search.php"); ?></p><a name="download" id="download"></a>
+  <!-- <p> <?php include("search.php"); ?> --></p>
+  <a name="download" id="download"></a>
 
-<!--
-  <p>
-  <table align="center" width="100%">
-    <tr>
-      <td valign="top">
-<a href="https://github.com/Helsinki-NLP/synOPUS-MT"><img width="100" src="https://raw.githubusercontent.com/Helsinki-NLP/Opus-MT/master/img/opus_mt.png"></a>
-      </td>
-    </tr>
-  </table>
-  </p>
--->
 
   <table align="center" width="100%">
     <tr>
