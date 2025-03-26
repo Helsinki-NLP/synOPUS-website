@@ -25,7 +25,7 @@ if ($file = validate_filename()){
     else{
       $file = old2new($file);
       // echo $file;return;
-      header("Location: https://object.pouta.csc.fi/OPUS-".$file);
+      header("Location: https://object.pouta.csc.fi/synOPUS-".$file);
     }
 
 // not a valid filename? go back to home page
