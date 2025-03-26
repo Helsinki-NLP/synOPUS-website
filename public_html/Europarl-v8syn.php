@@ -9,9 +9,10 @@
 <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-<div class="header"><?php include("header.php"); ?></div><h1>Europarl v8syn</h1>This is a collection of automatically translated documents from English Europarl v8 into other languages using GPT-4.<p>26 languages, 154 bitexts<br>total number of files: 225,791<br>total number of tokens: 951.07M<br>total number of sentence fragments: 43.36M<br><p>Please <a href="http://opus.lingfil.uu.se/LREC2012.txt">cite the following article</a> if you use the OPUS packages and downloads in your own work:<br/> J. Tiedemann, 2012, <a href="http://www.lrec-conf.org/proceedings/lrec2012/pdf/463_Paper.pdf"><i>Parallel Data, Tools and Interfaces in OPUS.</i></a> In Proceedings of the 8th International Conference on Language Resources and Evaluation (LREC 2012)<br/><h3>Download</h3><p>Below you can download data files for all language pairs in different formats and with different kind of annotation (if available). You can click on the various links as explained below. In addition to the files shown on this webpage, OPUS also provides pre-compiled word alignments and phrase tables, bilingual dictionaries, frequency counts, and these files can be found through the <a href="/index.php">resources search form on the top-level website of OPUS</a>.</p><p></p><h3>Release history:</h3><p><ul><li><a href="Europarl-v8syn.php">Europarl v8syn</a></li></ul></p><table><tr><td>Bottom-left triangle: download files<ul><li><i>ces</i> = sentence alignments in XCES format</li> <li><i>leftmost column language IDs</i> = tokenized corpus files in XML</li> <li>TMX and plain text files (Moses): see "Statistics" below</li> <li><i>lower row language IDs</i> = parsed corpus files (if they exist)</li></ul></td><td>Upper-right triangle: sample files <ul><li><i>view</i> = bilingual XML file samples</li> <li><i>upper row language IDs</i> = monolingual XML file samples</li> <li><i>rightmost column language IDs</i> = untokenized corpus files</li></ul></td></tr></table><p><div class="sample"><table border="0" cellpadding="0">
+<div class="header"><?php include("header.php"); ?></div><h1>Europarl v8syn</h1>This is a collection of automatically translated documents from English Europarl v8 into other languages using GPT-4.<p>26 languages, 154 bitexts<br>total number of files: 225,791<br>total number of tokens: 951.07M<br>total number of sentence fragments: 43.36M<br><p>Please <a href="http://opus.lingfil.uu.se/LREC2012.txt">cite the following article</a> if you use the OPUS packages and downloads in your own work:<br/> J. Tiedemann, 2012, <a href="http://www.lrec-conf.org/proceedings/lrec2012/pdf/463_Paper.pdf"><i>Parallel Data, Tools and Interfaces in OPUS.</i></a> In Proceedings of the 8th International Conference on Language Resources and Evaluation (LREC 2012)<br/><h3>Download</h3><p>Below you can download data files for all language pairs in different formats and with different kind of annotation (if available). You can click on the various links as explained below. In addition to the files shown on this webpage, OPUS also provides pre-compiled word alignments and phrase tables, bilingual dictionaries, frequency counts, and these files can be found through the <a href="/index.php">resources search form on the top-level website of OPUS</a>.</p><p></p><h3>Release history:</h3><p><ul><li><a href="Europarl-v8syn.php">Europarl v8syn</a></li></ul></p><table><tr><td>Bottom-left triangle: download files<ul><li><i>ces</i> = sentence alignments in XCES format</li> <li><i>leftmost column language IDs</i> = untokenized corpus files in XML</li> <li>TMX and plain text files (Moses): see "Statistics" below</li> <li><i>lower row language IDs</i> = parsed corpus files (if they exist)</li></ul></td><td>Upper-right triangle: sample files <ul><li><i>view</i> = bilingual XML file samples</li> <li><i>upper row language IDs</i> = monolingual XML file samples</li> <li><i>rightmost column language IDs</i> = tokenized corpus files</li></ul></td></tr></table><p><div class="sample"><table border="0" cellpadding="0">
 <tr>
 <th></th>
+<th>files</th><th>tokens</th><th>sentences</th>
 <th><a rel="nofollow" href="Europarl/v8syn/bg_sample.html">bg</a></th>
 <th><a rel="nofollow" href="Europarl/v8syn/cs_sample.html">cs</a></th>
 <th><a rel="nofollow" href="Europarl/v8syn/da_sample.html">da</a></th>
@@ -40,343 +41,343 @@
 <th></th>
 <th><a rel="nofollow" href="Europarl/v8syn/uk_sample.html">uk</a></th>
 <th></th></tr>
-<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/xml/bg.zip">bg</a></th>
-<th></th>
+<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/bg.zip">bg</a></th>
+<td>7,554</td><td>9.3M</td><td>0.4M</td><th></th>
 <td></td><td></td><td></td><td></td><td></td><td><a rel="nofollow" title="Bulgarian-Basque (sample file)" href="Europarl/v8syn/bg-eu_sample.html">view</a></td><td></td><td></td><td><a rel="nofollow" title="Bulgarian-Gaelic (sample file)" href="Europarl/v8syn/bg-gd_sample.html">view</a></td><td></td><td><a rel="nofollow" title="Bulgarian-Icelandic (sample file)" href="Europarl/v8syn/bg-is_sample.html">view</a></td><td></td><td><a rel="nofollow" title="Bulgarian-Georgian (sample file)" href="Europarl/v8syn/bg-ka_sample.html">view</a></td><td></td><td></td><td><a rel="nofollow" title="Bulgarian-Macedonian (sample file)" href="Europarl/v8syn/bg-mk_sample.html">view</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td><a rel="nofollow" title="Bulgarian-Somali (sample file)" href="Europarl/v8syn/bg-so_sample.html">view</a></td><td></td><th>bg</th>
-<td><a rel="nofollow" title="Bulgarian-Ukrainian (sample file)" href="Europarl/v8syn/bg-uk_sample.html">view</a></td><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/bg.zip">bg</a></th></tr>
-<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/xml/cs.zip">cs</a></th>
-<td></td>
+<td><a rel="nofollow" title="Bulgarian-Ukrainian (sample file)" href="Europarl/v8syn/bg-uk_sample.html">view</a></td><th>bg</th></tr>
+<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/cs.zip">cs</a></th>
+<td>9,790</td><td>13.2M</td><td>0.7M</td><td></td>
 <th></th>
 <td></td><td></td><td></td><td></td><td><a rel="nofollow" title="Czech-Basque (sample file)" href="Europarl/v8syn/cs-eu_sample.html">view</a></td><td></td><td></td><td><a rel="nofollow" title="Czech-Gaelic (sample file)" href="Europarl/v8syn/cs-gd_sample.html">view</a></td><td></td><td><a rel="nofollow" title="Czech-Icelandic (sample file)" href="Europarl/v8syn/cs-is_sample.html">view</a></td><td></td><td><a rel="nofollow" title="Czech-Georgian (sample file)" href="Europarl/v8syn/cs-ka_sample.html">view</a></td><td></td><td></td><td><a rel="nofollow" title="Czech-Macedonian (sample file)" href="Europarl/v8syn/cs-mk_sample.html">view</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td><a rel="nofollow" title="Czech-Somali (sample file)" href="Europarl/v8syn/cs-so_sample.html">view</a></td><td></td><th>cs</th>
-<td><a rel="nofollow" title="Czech-Ukrainian (sample file)" href="Europarl/v8syn/cs-uk_sample.html">view</a></td><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/cs.zip">cs</a></th></tr>
-<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/xml/da.zip">da</a></th>
-<td></td>
+<td><a rel="nofollow" title="Czech-Ukrainian (sample file)" href="Europarl/v8syn/cs-uk_sample.html">view</a></td><th>cs</th></tr>
+<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/da.zip">da</a></th>
+<td>10,316</td><td>48.9M</td><td>2.3M</td><td></td>
 <td></td>
 <th></th>
 <td></td><td></td><td></td><td><a rel="nofollow" title="Danish-Basque (sample file)" href="Europarl/v8syn/da-eu_sample.html">view</a></td><td></td><td></td><td><a rel="nofollow" title="Danish-Gaelic (sample file)" href="Europarl/v8syn/da-gd_sample.html">view</a></td><td></td><td><a rel="nofollow" title="Danish-Icelandic (sample file)" href="Europarl/v8syn/da-is_sample.html">view</a></td><td></td><td><a rel="nofollow" title="Danish-Georgian (sample file)" href="Europarl/v8syn/da-ka_sample.html">view</a></td><td></td><td></td><td><a rel="nofollow" title="Danish-Macedonian (sample file)" href="Europarl/v8syn/da-mk_sample.html">view</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td><a rel="nofollow" title="Danish-Somali (sample file)" href="Europarl/v8syn/da-so_sample.html">view</a></td><td></td><th>da</th>
-<td><a rel="nofollow" title="Danish-Ukrainian (sample file)" href="Europarl/v8syn/da-uk_sample.html">view</a></td><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/da.zip">da</a></th></tr>
-<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/xml/de.zip">de</a></th>
-<td></td>
+<td><a rel="nofollow" title="Danish-Ukrainian (sample file)" href="Europarl/v8syn/da-uk_sample.html">view</a></td><th>da</th></tr>
+<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/de.zip">de</a></th>
+<td>10,254</td><td>48.4M</td><td>2.2M</td><td></td>
 <td></td>
 <td></td>
 <th></th>
 <td></td><td></td><td><a rel="nofollow" title="German-Basque (sample file)" href="Europarl/v8syn/de-eu_sample.html">view</a></td><td></td><td></td><td><a rel="nofollow" title="German-Gaelic (sample file)" href="Europarl/v8syn/de-gd_sample.html">view</a></td><td></td><td><a rel="nofollow" title="German-Icelandic (sample file)" href="Europarl/v8syn/de-is_sample.html">view</a></td><td></td><td><a rel="nofollow" title="German-Georgian (sample file)" href="Europarl/v8syn/de-ka_sample.html">view</a></td><td></td><td></td><td><a rel="nofollow" title="German-Macedonian (sample file)" href="Europarl/v8syn/de-mk_sample.html">view</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td><a rel="nofollow" title="German-Somali (sample file)" href="Europarl/v8syn/de-so_sample.html">view</a></td><td></td><th>de</th>
-<td><a rel="nofollow" title="German-Ukrainian (sample file)" href="Europarl/v8syn/de-uk_sample.html">view</a></td><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/de.zip">de</a></th></tr>
-<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/xml/el.zip">el</a></th>
-<td></td>
+<td><a rel="nofollow" title="German-Ukrainian (sample file)" href="Europarl/v8syn/de-uk_sample.html">view</a></td><th>de</th></tr>
+<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/el.zip">el</a></th>
+<td>10,242</td><td>39.3M</td><td>1.6M</td><td></td>
 <td></td>
 <td></td>
 <td></td>
 <th></th>
 <td></td><td><a rel="nofollow" title="Greek-Basque (sample file)" href="Europarl/v8syn/el-eu_sample.html">view</a></td><td></td><td></td><td><a rel="nofollow" title="Greek-Gaelic (sample file)" href="Europarl/v8syn/el-gd_sample.html">view</a></td><td></td><td><a rel="nofollow" title="Greek-Icelandic (sample file)" href="Europarl/v8syn/el-is_sample.html">view</a></td><td></td><td><a rel="nofollow" title="Greek-Georgian (sample file)" href="Europarl/v8syn/el-ka_sample.html">view</a></td><td></td><td></td><td><a rel="nofollow" title="Greek-Macedonian (sample file)" href="Europarl/v8syn/el-mk_sample.html">view</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td><a rel="nofollow" title="Greek-Somali (sample file)" href="Europarl/v8syn/el-so_sample.html">view</a></td><td></td><th>el</th>
-<td><a rel="nofollow" title="Greek-Ukrainian (sample file)" href="Europarl/v8syn/el-uk_sample.html">view</a></td><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/el.zip">el</a></th></tr>
-<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/xml/en.zip">en</a></th>
-<td></td>
+<td><a rel="nofollow" title="Greek-Ukrainian (sample file)" href="Europarl/v8syn/el-uk_sample.html">view</a></td><th>el</th></tr>
+<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/en.zip">en</a></th>
+<td>11,199</td><td>59.8M</td><td>2.5M</td><td></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 <th></th>
 <td><a rel="nofollow" title="English-Basque (sample file)" href="Europarl/v8syn/en-eu_sample.html">view</a></td><td></td><td></td><td><a rel="nofollow" title="English-Gaelic (sample file)" href="Europarl/v8syn/en-gd_sample.html">view</a></td><td></td><td><a rel="nofollow" title="English-Icelandic (sample file)" href="Europarl/v8syn/en-is_sample.html">view</a></td><td></td><td><a rel="nofollow" title="English-Georgian (sample file)" href="Europarl/v8syn/en-ka_sample.html">view</a></td><td></td><td></td><td><a rel="nofollow" title="English-Macedonian (sample file)" href="Europarl/v8syn/en-mk_sample.html">view</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td><a rel="nofollow" title="English-Somali (sample file)" href="Europarl/v8syn/en-so_sample.html">view</a></td><td></td><th>en</th>
-<td><a rel="nofollow" title="English-Ukrainian (sample file)" href="Europarl/v8syn/en-uk_sample.html">view</a></td><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/en.zip">en</a></th></tr>
-<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/xml/eu.zip">eu</a></th>
-<td><a rel="nofollow" title="sentence alignments for 'Basque-Bulgarian' (2,265 aligned documents, 0.4M links, 15.1M tokens)" href="download.php?f=Europarl/v8syn/xml/bg-eu.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Basque-Czech' (3,353 aligned documents, 0.6M links, 22.2M tokens)" href="download.php?f=Europarl/v8syn/xml/cs-eu.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Basque-Danish' (4,431 aligned documents, 1.7M links, 72.8M tokens)" href="download.php?f=Europarl/v8syn/xml/da-eu.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Basque-German' (4,320 aligned documents, 1.7M links, 72.4M tokens)" href="download.php?f=Europarl/v8syn/xml/de-eu.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Basque-Greek' (4,337 aligned documents, 1.1M links, 50.4M tokens)" href="download.php?f=Europarl/v8syn/xml/el-eu.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Basque-English' (5,207 aligned documents, 2.1M links, 92.3M tokens)" href="download.php?f=Europarl/v8syn/xml/en-eu.xml.gz">ces</a></td>
+<td><a rel="nofollow" title="English-Ukrainian (sample file)" href="Europarl/v8syn/en-uk_sample.html">view</a></td><th>en</th></tr>
+<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/eu.zip">eu</a></th>
+<td>5,207</td><td>38.6M</td><td>2.2M</td><td bgcolor='#eaffcc'><a rel="nofollow" title="sentence alignments for 'Basque-Bulgarian' (2,265 aligned documents0.4M links15.1M tokens)" href="download.php?f=Europarl/v8syn/xml/bg-eu.xml.gz">ces</a></td>
+<td bgcolor='#e5ffc8'><a rel="nofollow" title="sentence alignments for 'Basque-Czech' (3,353 aligned documents0.6M links22.2M tokens)" href="download.php?f=Europarl/v8syn/xml/cs-eu.xml.gz">ces</a></td>
+<td bgcolor='#daffc7'><a rel="nofollow" title="sentence alignments for 'Basque-Danish' (4,431 aligned documents1.7M links72.8M tokens)" href="download.php?f=Europarl/v8syn/xml/da-eu.xml.gz">ces</a></td>
+<td bgcolor='#daffc7'><a rel="nofollow" title="sentence alignments for 'Basque-German' (4,320 aligned documents1.7M links72.4M tokens)" href="download.php?f=Europarl/v8syn/xml/de-eu.xml.gz">ces</a></td>
+<td bgcolor='#deffc6'><a rel="nofollow" title="sentence alignments for 'Basque-Greek' (4,337 aligned documents1.1M links50.4M tokens)" href="download.php?f=Europarl/v8syn/xml/el-eu.xml.gz">ces</a></td>
+<td bgcolor='#d7ffc7'><a rel="nofollow" title="sentence alignments for 'Basque-English' (5,207 aligned documents2.1M links92.3M tokens)" href="download.php?f=Europarl/v8syn/xml/en-eu.xml.gz">ces</a></td>
 <th></th>
 <td><a rel="nofollow" title="Basque-Finnish (sample file)" href="Europarl/v8syn/eu-fi_sample.html">view</a></td><td><a rel="nofollow" title="Basque-French (sample file)" href="Europarl/v8syn/eu-fr_sample.html">view</a></td><td><a rel="nofollow" title="Basque-Gaelic (sample file)" href="Europarl/v8syn/eu-gd_sample.html">view</a></td><td><a rel="nofollow" title="Basque-Hungarian (sample file)" href="Europarl/v8syn/eu-hu_sample.html">view</a></td><td><a rel="nofollow" title="Basque-Icelandic (sample file)" href="Europarl/v8syn/eu-is_sample.html">view</a></td><td><a rel="nofollow" title="Basque-Italian (sample file)" href="Europarl/v8syn/eu-it_sample.html">view</a></td><td><a rel="nofollow" title="Basque-Georgian (sample file)" href="Europarl/v8syn/eu-ka_sample.html">view</a></td><td><a rel="nofollow" title="Basque-Lithuanian (sample file)" href="Europarl/v8syn/eu-lt_sample.html">view</a></td><td><a rel="nofollow" title="Basque-Latvian (sample file)" href="Europarl/v8syn/eu-lv_sample.html">view</a></td><td><a rel="nofollow" title="Basque-Macedonian (sample file)" href="Europarl/v8syn/eu-mk_sample.html">view</a></td><td><a rel="nofollow" title="Basque-Dutch (sample file)" href="Europarl/v8syn/eu-nl_sample.html">view</a></td><td><a rel="nofollow" title="Basque-Polish (sample file)" href="Europarl/v8syn/eu-pl_sample.html">view</a></td><td><a rel="nofollow" title="Basque-Portuguese (sample file)" href="Europarl/v8syn/eu-pt_sample.html">view</a></td><td><a rel="nofollow" title="Basque-Romanian (sample file)" href="Europarl/v8syn/eu-ro_sample.html">view</a></td><td><a rel="nofollow" title="Basque-Slovak (sample file)" href="Europarl/v8syn/eu-sk_sample.html">view</a></td><td><a rel="nofollow" title="Basque-Slovenian (sample file)" href="Europarl/v8syn/eu-sl_sample.html">view</a></td><td><a rel="nofollow" title="Basque-Somali (sample file)" href="Europarl/v8syn/eu-so_sample.html">view</a></td><td><a rel="nofollow" title="Basque-Swedish (sample file)" href="Europarl/v8syn/eu-sv_sample.html">view</a></td><th>eu</th>
-<td><a rel="nofollow" title="Basque-Ukrainian (sample file)" href="Europarl/v8syn/eu-uk_sample.html">view</a></td><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/eu.zip">eu</a></th></tr>
-<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/xml/fi.zip">fi</a></th>
+<td><a rel="nofollow" title="Basque-Ukrainian (sample file)" href="Europarl/v8syn/eu-uk_sample.html">view</a></td><th>eu</th></tr>
+<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/fi.zip">fi</a></th>
+<td>10,268</td><td>34.6M</td><td>2.2M</td><td></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
-<td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Finnish-Basque' (4,403 aligned documents, 1.7M links, 61.3M tokens)" href="download.php?f=Europarl/v8syn/xml/eu-fi.xml.gz">ces</a></td>
+<td bgcolor='#daffc7'><a rel="nofollow" title="sentence alignments for 'Finnish-Basque' (4,403 aligned documents1.7M links61.3M tokens)" href="download.php?f=Europarl/v8syn/xml/eu-fi.xml.gz">ces</a></td>
 <th></th>
 <td></td><td><a rel="nofollow" title="Finnish-Gaelic (sample file)" href="Europarl/v8syn/fi-gd_sample.html">view</a></td><td></td><td><a rel="nofollow" title="Finnish-Icelandic (sample file)" href="Europarl/v8syn/fi-is_sample.html">view</a></td><td></td><td><a rel="nofollow" title="Finnish-Georgian (sample file)" href="Europarl/v8syn/fi-ka_sample.html">view</a></td><td></td><td></td><td><a rel="nofollow" title="Finnish-Macedonian (sample file)" href="Europarl/v8syn/fi-mk_sample.html">view</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td><a rel="nofollow" title="Finnish-Somali (sample file)" href="Europarl/v8syn/fi-so_sample.html">view</a></td><td></td><th>fi</th>
-<td><a rel="nofollow" title="Finnish-Ukrainian (sample file)" href="Europarl/v8syn/fi-uk_sample.html">view</a></td><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/fi.zip">fi</a></th></tr>
-<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/xml/fr.zip">fr</a></th>
+<td><a rel="nofollow" title="Finnish-Ukrainian (sample file)" href="Europarl/v8syn/fi-uk_sample.html">view</a></td><th>fi</th></tr>
+<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/fr.zip">fr</a></th>
+<td>10,410</td><td>56.7M</td><td>2.2M</td><td></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
-<td></td>
-<td><a rel="nofollow" title="sentence alignments for 'French-Basque' (4,505 aligned documents, 1.8M links, 81.1M tokens)" href="download.php?f=Europarl/v8syn/xml/eu-fr.xml.gz">ces</a></td>
+<td bgcolor='#d9ffc6'><a rel="nofollow" title="sentence alignments for 'French-Basque' (4,505 aligned documents1.8M links81.1M tokens)" href="download.php?f=Europarl/v8syn/xml/eu-fr.xml.gz">ces</a></td>
 <td></td>
 <th></th>
 <td><a rel="nofollow" title="French-Gaelic (sample file)" href="Europarl/v8syn/fr-gd_sample.html">view</a></td><td></td><td><a rel="nofollow" title="French-Icelandic (sample file)" href="Europarl/v8syn/fr-is_sample.html">view</a></td><td></td><td><a rel="nofollow" title="French-Georgian (sample file)" href="Europarl/v8syn/fr-ka_sample.html">view</a></td><td></td><td></td><td><a rel="nofollow" title="French-Macedonian (sample file)" href="Europarl/v8syn/fr-mk_sample.html">view</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td><a rel="nofollow" title="French-Somali (sample file)" href="Europarl/v8syn/fr-so_sample.html">view</a></td><td></td><th>fr</th>
-<td><a rel="nofollow" title="French-Ukrainian (sample file)" href="Europarl/v8syn/fr-uk_sample.html">view</a></td><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/fr.zip">fr</a></th></tr>
-<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/xml/gd.zip">gd</a></th>
-<td><a rel="nofollow" title="sentence alignments for 'Gaelic-Bulgarian' (2,284 aligned documents, 0.4M links, 19.0M tokens)" href="download.php?f=Europarl/v8syn/xml/bg-gd.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Gaelic-Czech' (3,417 aligned documents, 0.6M links, 28.6M tokens)" href="download.php?f=Europarl/v8syn/xml/cs-gd.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Gaelic-Danish' (4,512 aligned documents, 1.8M links, 93.2M tokens)" href="download.php?f=Europarl/v8syn/xml/da-gd.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Gaelic-German' (4,397 aligned documents, 1.7M links, 92.4M tokens)" href="download.php?f=Europarl/v8syn/xml/de-gd.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Gaelic-Greek' (4,417 aligned documents, 1.1M links, 64.8M tokens)" href="download.php?f=Europarl/v8syn/xml/el-gd.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Gaelic-English' (5,308 aligned documents, 2.2M links, 117.1M tokens)" href="download.php?f=Europarl/v8syn/xml/en-gd.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Gaelic-Basque' (4,947 aligned documents, 2.0M links, 94.8M tokens)" href="download.php?f=Europarl/v8syn/xml/eu-gd.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Gaelic-Finnish' (4,477 aligned documents, 1.7M links, 80.9M tokens)" href="download.php?f=Europarl/v8syn/xml/fi-gd.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Gaelic-French' (4,585 aligned documents, 1.8M links, 102.1M tokens)" href="download.php?f=Europarl/v8syn/xml/fr-gd.xml.gz">ces</a></td>
+<td><a rel="nofollow" title="French-Ukrainian (sample file)" href="Europarl/v8syn/fr-uk_sample.html">view</a></td><th>fr</th></tr>
+<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/gd.zip">gd</a></th>
+<td>5,308</td><td>63.1M</td><td>2.2M</td><td bgcolor='#eaffcc'><a rel="nofollow" title="sentence alignments for 'Gaelic-Bulgarian' (2,284 aligned documents0.4M links19.0M tokens)" href="download.php?f=Europarl/v8syn/xml/bg-gd.xml.gz">ces</a></td>
+<td bgcolor='#e5ffc9'><a rel="nofollow" title="sentence alignments for 'Gaelic-Czech' (3,417 aligned documents0.6M links28.6M tokens)" href="download.php?f=Europarl/v8syn/xml/cs-gd.xml.gz">ces</a></td>
+<td bgcolor='#daffc7'><a rel="nofollow" title="sentence alignments for 'Gaelic-Danish' (4,512 aligned documents1.8M links93.2M tokens)" href="download.php?f=Europarl/v8syn/xml/da-gd.xml.gz">ces</a></td>
+<td bgcolor='#daffc7'><a rel="nofollow" title="sentence alignments for 'Gaelic-German' (4,397 aligned documents1.7M links92.4M tokens)" href="download.php?f=Europarl/v8syn/xml/de-gd.xml.gz">ces</a></td>
+<td bgcolor='#deffc6'><a rel="nofollow" title="sentence alignments for 'Gaelic-Greek' (4,417 aligned documents1.1M links64.8M tokens)" href="download.php?f=Europarl/v8syn/xml/el-gd.xml.gz">ces</a></td>
+<td bgcolor='#d7ffc7'><a rel="nofollow" title="sentence alignments for 'Gaelic-English' (5,308 aligned documents2.2M links117.1M tokens)" href="download.php?f=Europarl/v8syn/xml/en-gd.xml.gz">ces</a></td>
+<td bgcolor='#d8ffc7'><a rel="nofollow" title="sentence alignments for 'Gaelic-Basque' (4,947 aligned documents2.0M links94.8M tokens)" href="download.php?f=Europarl/v8syn/xml/eu-gd.xml.gz">ces</a></td>
+<td bgcolor='#daffc7'><a rel="nofollow" title="sentence alignments for 'Gaelic-Finnish' (4,477 aligned documents1.7M links80.9M tokens)" href="download.php?f=Europarl/v8syn/xml/fi-gd.xml.gz">ces</a></td>
+<td bgcolor='#d9ffc6'><a rel="nofollow" title="sentence alignments for 'Gaelic-French' (4,585 aligned documents1.8M links102.1M tokens)" href="download.php?f=Europarl/v8syn/xml/fr-gd.xml.gz">ces</a></td>
 <th></th>
 <td><a rel="nofollow" title="Gaelic-Hungarian (sample file)" href="Europarl/v8syn/gd-hu_sample.html">view</a></td><td><a rel="nofollow" title="Gaelic-Icelandic (sample file)" href="Europarl/v8syn/gd-is_sample.html">view</a></td><td><a rel="nofollow" title="Gaelic-Italian (sample file)" href="Europarl/v8syn/gd-it_sample.html">view</a></td><td><a rel="nofollow" title="Gaelic-Georgian (sample file)" href="Europarl/v8syn/gd-ka_sample.html">view</a></td><td><a rel="nofollow" title="Gaelic-Lithuanian (sample file)" href="Europarl/v8syn/gd-lt_sample.html">view</a></td><td><a rel="nofollow" title="Gaelic-Latvian (sample file)" href="Europarl/v8syn/gd-lv_sample.html">view</a></td><td><a rel="nofollow" title="Gaelic-Macedonian (sample file)" href="Europarl/v8syn/gd-mk_sample.html">view</a></td><td><a rel="nofollow" title="Gaelic-Dutch (sample file)" href="Europarl/v8syn/gd-nl_sample.html">view</a></td><td><a rel="nofollow" title="Gaelic-Polish (sample file)" href="Europarl/v8syn/gd-pl_sample.html">view</a></td><td><a rel="nofollow" title="Gaelic-Portuguese (sample file)" href="Europarl/v8syn/gd-pt_sample.html">view</a></td><td><a rel="nofollow" title="Gaelic-Romanian (sample file)" href="Europarl/v8syn/gd-ro_sample.html">view</a></td><td><a rel="nofollow" title="Gaelic-Slovak (sample file)" href="Europarl/v8syn/gd-sk_sample.html">view</a></td><td><a rel="nofollow" title="Gaelic-Slovenian (sample file)" href="Europarl/v8syn/gd-sl_sample.html">view</a></td><td><a rel="nofollow" title="Gaelic-Somali (sample file)" href="Europarl/v8syn/gd-so_sample.html">view</a></td><td><a rel="nofollow" title="Gaelic-Swedish (sample file)" href="Europarl/v8syn/gd-sv_sample.html">view</a></td><th>gd</th>
-<td><a rel="nofollow" title="Gaelic-Ukrainian (sample file)" href="Europarl/v8syn/gd-uk_sample.html">view</a></td><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/gd.zip">gd</a></th></tr>
-<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/xml/hu.zip">hu</a></th>
+<td><a rel="nofollow" title="Gaelic-Ukrainian (sample file)" href="Europarl/v8syn/gd-uk_sample.html">view</a></td><th>gd</th></tr>
+<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/hu.zip">hu</a></th>
+<td>9,718</td><td>12.6M</td><td>0.7M</td><td></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
+<td bgcolor='#e5ffc8'><a rel="nofollow" title="sentence alignments for 'Hungarian-Basque' (3,278 aligned documents0.5M links21.3M tokens)" href="download.php?f=Europarl/v8syn/xml/eu-hu.xml.gz">ces</a></td>
 <td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Hungarian-Basque' (3,278 aligned documents, 0.5M links, 21.3M tokens)" href="download.php?f=Europarl/v8syn/xml/eu-hu.xml.gz">ces</a></td>
 <td></td>
-<td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Hungarian-Gaelic' (3,347 aligned documents, 0.6M links, 27.6M tokens)" href="download.php?f=Europarl/v8syn/xml/gd-hu.xml.gz">ces</a></td>
+<td bgcolor='#e5ffc8'><a rel="nofollow" title="sentence alignments for 'Hungarian-Gaelic' (3,347 aligned documents0.6M links27.6M tokens)" href="download.php?f=Europarl/v8syn/xml/gd-hu.xml.gz">ces</a></td>
 <th></th>
 <td><a rel="nofollow" title="Hungarian-Icelandic (sample file)" href="Europarl/v8syn/hu-is_sample.html">view</a></td><td></td><td><a rel="nofollow" title="Hungarian-Georgian (sample file)" href="Europarl/v8syn/hu-ka_sample.html">view</a></td><td></td><td></td><td><a rel="nofollow" title="Hungarian-Macedonian (sample file)" href="Europarl/v8syn/hu-mk_sample.html">view</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td><a rel="nofollow" title="Hungarian-Somali (sample file)" href="Europarl/v8syn/hu-so_sample.html">view</a></td><td></td><th>hu</th>
-<td><a rel="nofollow" title="Hungarian-Ukrainian (sample file)" href="Europarl/v8syn/hu-uk_sample.html">view</a></td><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/hu.zip">hu</a></th></tr>
-<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/xml/is.zip">is</a></th>
-<td><a rel="nofollow" title="sentence alignments for 'Icelandic-Bulgarian' (2,450 aligned documents, 0.4M links, 17.8M tokens)" href="download.php?f=Europarl/v8syn/xml/bg-is.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Icelandic-Czech' (3,659 aligned documents, 0.6M links, 26.4M tokens)" href="download.php?f=Europarl/v8syn/xml/cs-is.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Icelandic-Danish' (4,854 aligned documents, 1.9M links, 88.3M tokens)" href="download.php?f=Europarl/v8syn/xml/da-is.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Icelandic-German' (4,726 aligned documents, 1.9M links, 87.5M tokens)" href="download.php?f=Europarl/v8syn/xml/de-is.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Icelandic-Greek' (4,746 aligned documents, 1.2M links, 60.7M tokens)" href="download.php?f=Europarl/v8syn/xml/el-is.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Icelandic-English' (5,695 aligned documents, 2.3M links, 111.5M tokens)" href="download.php?f=Europarl/v8syn/xml/en-is.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Icelandic-Basque' (5,204 aligned documents, 2.1M links, 85.9M tokens)" href="download.php?f=Europarl/v8syn/xml/eu-is.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Icelandic-Finnish' (4,816 aligned documents, 1.9M links, 74.9M tokens)" href="download.php?f=Europarl/v8syn/xml/fi-is.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Icelandic-French' (4,932 aligned documents, 2.0M links, 97.5M tokens)" href="download.php?f=Europarl/v8syn/xml/fr-is.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Icelandic-Gaelic' (5,305 aligned documents, 2.1M links, 110.6M tokens)" href="download.php?f=Europarl/v8syn/xml/gd-is.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Icelandic-Hungarian' (3,583 aligned documents, 0.6M links, 25.4M tokens)" href="download.php?f=Europarl/v8syn/xml/hu-is.xml.gz">ces</a></td>
+<td><a rel="nofollow" title="Hungarian-Ukrainian (sample file)" href="Europarl/v8syn/hu-uk_sample.html">view</a></td><th>hu</th></tr>
+<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/is.zip">is</a></th>
+<td>5,695</td><td>52.4M</td><td>2.4M</td><td bgcolor='#e9ffcb'><a rel="nofollow" title="sentence alignments for 'Icelandic-Bulgarian' (2,450 aligned documents0.4M links17.8M tokens)" href="download.php?f=Europarl/v8syn/xml/bg-is.xml.gz">ces</a></td>
+<td bgcolor='#e4ffc8'><a rel="nofollow" title="sentence alignments for 'Icelandic-Czech' (3,659 aligned documents0.6M links26.4M tokens)" href="download.php?f=Europarl/v8syn/xml/cs-is.xml.gz">ces</a></td>
+<td bgcolor='#d9ffc7'><a rel="nofollow" title="sentence alignments for 'Icelandic-Danish' (4,854 aligned documents1.9M links88.3M tokens)" href="download.php?f=Europarl/v8syn/xml/da-is.xml.gz">ces</a></td>
+<td bgcolor='#d9ffc7'><a rel="nofollow" title="sentence alignments for 'Icelandic-German' (4,726 aligned documents1.9M links87.5M tokens)" href="download.php?f=Europarl/v8syn/xml/de-is.xml.gz">ces</a></td>
+<td bgcolor='#ddffc6'><a rel="nofollow" title="sentence alignments for 'Icelandic-Greek' (4,746 aligned documents1.2M links60.7M tokens)" href="download.php?f=Europarl/v8syn/xml/el-is.xml.gz">ces</a></td>
+<td bgcolor='#d6ffc8'><a rel="nofollow" title="sentence alignments for 'Icelandic-English' (5,695 aligned documents2.3M links111.5M tokens)" href="download.php?f=Europarl/v8syn/xml/en-is.xml.gz">ces</a></td>
+<td bgcolor='#d8ffc8'><a rel="nofollow" title="sentence alignments for 'Icelandic-Basque' (5,204 aligned documents2.1M links85.9M tokens)" href="download.php?f=Europarl/v8syn/xml/eu-is.xml.gz">ces</a></td>
+<td bgcolor='#d9ffc7'><a rel="nofollow" title="sentence alignments for 'Icelandic-Finnish' (4,816 aligned documents1.9M links74.9M tokens)" href="download.php?f=Europarl/v8syn/xml/fi-is.xml.gz">ces</a></td>
+<td bgcolor='#d8ffc7'><a rel="nofollow" title="sentence alignments for 'Icelandic-French' (4,932 aligned documents2.0M links97.5M tokens)" href="download.php?f=Europarl/v8syn/xml/fr-is.xml.gz">ces</a></td>
+<td bgcolor='#d7ffc7'><a rel="nofollow" title="sentence alignments for 'Icelandic-Gaelic' (5,305 aligned documents2.1M links110.6M tokens)" href="download.php?f=Europarl/v8syn/xml/gd-is.xml.gz">ces</a></td>
+<td bgcolor='#e5ffc9'><a rel="nofollow" title="sentence alignments for 'Icelandic-Hungarian' (3,583 aligned documents0.6M links25.4M tokens)" href="download.php?f=Europarl/v8syn/xml/hu-is.xml.gz">ces</a></td>
 <th></th>
 <td><a rel="nofollow" title="Icelandic-Italian (sample file)" href="Europarl/v8syn/is-it_sample.html">view</a></td><td><a rel="nofollow" title="Icelandic-Georgian (sample file)" href="Europarl/v8syn/is-ka_sample.html">view</a></td><td><a rel="nofollow" title="Icelandic-Lithuanian (sample file)" href="Europarl/v8syn/is-lt_sample.html">view</a></td><td><a rel="nofollow" title="Icelandic-Latvian (sample file)" href="Europarl/v8syn/is-lv_sample.html">view</a></td><td><a rel="nofollow" title="Icelandic-Macedonian (sample file)" href="Europarl/v8syn/is-mk_sample.html">view</a></td><td><a rel="nofollow" title="Icelandic-Dutch (sample file)" href="Europarl/v8syn/is-nl_sample.html">view</a></td><td><a rel="nofollow" title="Icelandic-Polish (sample file)" href="Europarl/v8syn/is-pl_sample.html">view</a></td><td><a rel="nofollow" title="Icelandic-Portuguese (sample file)" href="Europarl/v8syn/is-pt_sample.html">view</a></td><td><a rel="nofollow" title="Icelandic-Romanian (sample file)" href="Europarl/v8syn/is-ro_sample.html">view</a></td><td><a rel="nofollow" title="Icelandic-Slovak (sample file)" href="Europarl/v8syn/is-sk_sample.html">view</a></td><td><a rel="nofollow" title="Icelandic-Slovenian (sample file)" href="Europarl/v8syn/is-sl_sample.html">view</a></td><td><a rel="nofollow" title="Icelandic-Somali (sample file)" href="Europarl/v8syn/is-so_sample.html">view</a></td><td><a rel="nofollow" title="Icelandic-Swedish (sample file)" href="Europarl/v8syn/is-sv_sample.html">view</a></td><th>is</th>
-<td><a rel="nofollow" title="Icelandic-Ukrainian (sample file)" href="Europarl/v8syn/is-uk_sample.html">view</a></td><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/is.zip">is</a></th></tr>
-<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/xml/it.zip">it</a></th>
+<td><a rel="nofollow" title="Icelandic-Ukrainian (sample file)" href="Europarl/v8syn/is-uk_sample.html">view</a></td><th>is</th></tr>
+<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/it.zip">it</a></th>
+<td>10,470</td><td>52.1M</td><td>2.1M</td><td></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
+<td bgcolor='#daffc6'><a rel="nofollow" title="sentence alignments for 'Italian-Basque' (4,533 aligned documents1.7M links76.2M tokens)" href="download.php?f=Europarl/v8syn/xml/eu-it.xml.gz">ces</a></td>
 <td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Italian-Basque' (4,533 aligned documents, 1.7M links, 76.2M tokens)" href="download.php?f=Europarl/v8syn/xml/eu-it.xml.gz">ces</a></td>
 <td></td>
+<td bgcolor='#daffc7'><a rel="nofollow" title="sentence alignments for 'Italian-Gaelic' (4,613 aligned documents1.7M links96.8M tokens)" href="download.php?f=Europarl/v8syn/xml/gd-it.xml.gz">ces</a></td>
 <td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Italian-Gaelic' (4,613 aligned documents, 1.7M links, 96.8M tokens)" href="download.php?f=Europarl/v8syn/xml/gd-it.xml.gz">ces</a></td>
-<td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Italian-Icelandic' (4,961 aligned documents, 1.9M links, 92.0M tokens)" href="download.php?f=Europarl/v8syn/xml/is-it.xml.gz">ces</a></td>
+<td bgcolor='#d9ffc7'><a rel="nofollow" title="sentence alignments for 'Italian-Icelandic' (4,961 aligned documents1.9M links92.0M tokens)" href="download.php?f=Europarl/v8syn/xml/is-it.xml.gz">ces</a></td>
 <th></th>
 <td><a rel="nofollow" title="Italian-Georgian (sample file)" href="Europarl/v8syn/it-ka_sample.html">view</a></td><td></td><td></td><td><a rel="nofollow" title="Italian-Macedonian (sample file)" href="Europarl/v8syn/it-mk_sample.html">view</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td><a rel="nofollow" title="Italian-Somali (sample file)" href="Europarl/v8syn/it-so_sample.html">view</a></td><td></td><th>it</th>
-<td><a rel="nofollow" title="Italian-Ukrainian (sample file)" href="Europarl/v8syn/it-uk_sample.html">view</a></td><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/it.zip">it</a></th></tr>
-<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/xml/ka.zip">ka</a></th>
-<td><a rel="nofollow" title="sentence alignments for 'Georgian-Bulgarian' (2,454 aligned documents, 0.4M links, 15.5M tokens)" href="download.php?f=Europarl/v8syn/xml/bg-ka.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Georgian-Czech' (3,662 aligned documents, 0.6M links, 22.9M tokens)" href="download.php?f=Europarl/v8syn/xml/cs-ka.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Georgian-Danish' (4,857 aligned documents, 1.9M links, 77.4M tokens)" href="download.php?f=Europarl/v8syn/xml/da-ka.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Georgian-German' (4,729 aligned documents, 1.8M links, 76.7M tokens)" href="download.php?f=Europarl/v8syn/xml/de-ka.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Georgian-Greek' (4,749 aligned documents, 1.2M links, 53.6M tokens)" href="download.php?f=Europarl/v8syn/xml/el-ka.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Georgian-English' (5,698 aligned documents, 2.3M links, 98.1M tokens)" href="download.php?f=Europarl/v8syn/xml/en-ka.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Georgian-Basque' (5,206 aligned documents, 2.1M links, 74.0M tokens)" href="download.php?f=Europarl/v8syn/xml/eu-ka.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Georgian-Finnish' (4,819 aligned documents, 1.8M links, 64.4M tokens)" href="download.php?f=Europarl/v8syn/xml/fi-ka.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Georgian-French' (4,935 aligned documents, 1.9M links, 86.1M tokens)" href="download.php?f=Europarl/v8syn/xml/fr-ka.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Georgian-Gaelic' (5,307 aligned documents, 2.1M links, 98.2M tokens)" href="download.php?f=Europarl/v8syn/xml/gd-ka.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Georgian-Hungarian' (3,586 aligned documents, 0.6M links, 22.0M tokens)" href="download.php?f=Europarl/v8syn/xml/hu-ka.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Georgian-Icelandic' (5,694 aligned documents, 2.3M links, 91.1M tokens)" href="download.php?f=Europarl/v8syn/xml/is-ka.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Georgian-Italian' (4,964 aligned documents, 1.8M links, 80.9M tokens)" href="download.php?f=Europarl/v8syn/xml/it-ka.xml.gz">ces</a></td>
+<td><a rel="nofollow" title="Italian-Ukrainian (sample file)" href="Europarl/v8syn/it-uk_sample.html">view</a></td><th>it</th></tr>
+<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/ka.zip">ka</a></th>
+<td>5,698</td><td>40.4M</td><td>2.5M</td><td bgcolor='#eaffcc'><a rel="nofollow" title="sentence alignments for 'Georgian-Bulgarian' (2,454 aligned documents0.4M links15.5M tokens)" href="download.php?f=Europarl/v8syn/xml/bg-ka.xml.gz">ces</a></td>
+<td bgcolor='#e5ffc9'><a rel="nofollow" title="sentence alignments for 'Georgian-Czech' (3,662 aligned documents0.6M links22.9M tokens)" href="download.php?f=Europarl/v8syn/xml/cs-ka.xml.gz">ces</a></td>
+<td bgcolor='#d9ffc7'><a rel="nofollow" title="sentence alignments for 'Georgian-Danish' (4,857 aligned documents1.9M links77.4M tokens)" href="download.php?f=Europarl/v8syn/xml/da-ka.xml.gz">ces</a></td>
+<td bgcolor='#d9ffc7'><a rel="nofollow" title="sentence alignments for 'Georgian-German' (4,729 aligned documents1.8M links76.7M tokens)" href="download.php?f=Europarl/v8syn/xml/de-ka.xml.gz">ces</a></td>
+<td bgcolor='#deffc7'><a rel="nofollow" title="sentence alignments for 'Georgian-Greek' (4,749 aligned documents1.2M links53.6M tokens)" href="download.php?f=Europarl/v8syn/xml/el-ka.xml.gz">ces</a></td>
+<td bgcolor='#d7ffc8'><a rel="nofollow" title="sentence alignments for 'Georgian-English' (5,698 aligned documents2.3M links98.1M tokens)" href="download.php?f=Europarl/v8syn/xml/en-ka.xml.gz">ces</a></td>
+<td bgcolor='#d8ffc7'><a rel="nofollow" title="sentence alignments for 'Georgian-Basque' (5,206 aligned documents2.1M links74.0M tokens)" href="download.php?f=Europarl/v8syn/xml/eu-ka.xml.gz">ces</a></td>
+<td bgcolor='#d9ffc7'><a rel="nofollow" title="sentence alignments for 'Georgian-Finnish' (4,819 aligned documents1.8M links64.4M tokens)" href="download.php?f=Europarl/v8syn/xml/fi-ka.xml.gz">ces</a></td>
+<td bgcolor='#d9ffc7'><a rel="nofollow" title="sentence alignments for 'Georgian-French' (4,935 aligned documents1.9M links86.1M tokens)" href="download.php?f=Europarl/v8syn/xml/fr-ka.xml.gz">ces</a></td>
+<td bgcolor='#d8ffc8'><a rel="nofollow" title="sentence alignments for 'Georgian-Gaelic' (5,307 aligned documents2.1M links98.2M tokens)" href="download.php?f=Europarl/v8syn/xml/gd-ka.xml.gz">ces</a></td>
+<td bgcolor='#e5ffc9'><a rel="nofollow" title="sentence alignments for 'Georgian-Hungarian' (3,586 aligned documents0.6M links22.0M tokens)" href="download.php?f=Europarl/v8syn/xml/hu-ka.xml.gz">ces</a></td>
+<td bgcolor='#d7ffc8'><a rel="nofollow" title="sentence alignments for 'Georgian-Icelandic' (5,694 aligned documents2.3M links91.1M tokens)" href="download.php?f=Europarl/v8syn/xml/is-ka.xml.gz">ces</a></td>
+<td bgcolor='#d9ffc6'><a rel="nofollow" title="sentence alignments for 'Georgian-Italian' (4,964 aligned documents1.8M links80.9M tokens)" href="download.php?f=Europarl/v8syn/xml/it-ka.xml.gz">ces</a></td>
 <th></th>
 <td><a rel="nofollow" title="Georgian-Lithuanian (sample file)" href="Europarl/v8syn/ka-lt_sample.html">view</a></td><td><a rel="nofollow" title="Georgian-Latvian (sample file)" href="Europarl/v8syn/ka-lv_sample.html">view</a></td><td><a rel="nofollow" title="Georgian-Macedonian (sample file)" href="Europarl/v8syn/ka-mk_sample.html">view</a></td><td><a rel="nofollow" title="Georgian-Dutch (sample file)" href="Europarl/v8syn/ka-nl_sample.html">view</a></td><td><a rel="nofollow" title="Georgian-Polish (sample file)" href="Europarl/v8syn/ka-pl_sample.html">view</a></td><td><a rel="nofollow" title="Georgian-Portuguese (sample file)" href="Europarl/v8syn/ka-pt_sample.html">view</a></td><td><a rel="nofollow" title="Georgian-Romanian (sample file)" href="Europarl/v8syn/ka-ro_sample.html">view</a></td><td><a rel="nofollow" title="Georgian-Slovak (sample file)" href="Europarl/v8syn/ka-sk_sample.html">view</a></td><td><a rel="nofollow" title="Georgian-Slovenian (sample file)" href="Europarl/v8syn/ka-sl_sample.html">view</a></td><td><a rel="nofollow" title="Georgian-Somali (sample file)" href="Europarl/v8syn/ka-so_sample.html">view</a></td><td><a rel="nofollow" title="Georgian-Swedish (sample file)" href="Europarl/v8syn/ka-sv_sample.html">view</a></td><th>ka</th>
-<td><a rel="nofollow" title="Georgian-Ukrainian (sample file)" href="Europarl/v8syn/ka-uk_sample.html">view</a></td><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/ka.zip">ka</a></th></tr>
-<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/xml/lt.zip">lt</a></th>
+<td><a rel="nofollow" title="Georgian-Ukrainian (sample file)" href="Europarl/v8syn/ka-uk_sample.html">view</a></td><th>ka</th></tr>
+<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/lt.zip">lt</a></th>
+<td>9,766</td><td>11.6M</td><td>0.7M</td><td></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
+<td bgcolor='#e5ffc8'><a rel="nofollow" title="sentence alignments for 'Lithuanian-Basque' (3,339 aligned documents0.6M links20.5M tokens)" href="download.php?f=Europarl/v8syn/xml/eu-lt.xml.gz">ces</a></td>
 <td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Lithuanian-Basque' (3,339 aligned documents, 0.6M links, 20.5M tokens)" href="download.php?f=Europarl/v8syn/xml/eu-lt.xml.gz">ces</a></td>
 <td></td>
+<td bgcolor='#e5ffc8'><a rel="nofollow" title="sentence alignments for 'Lithuanian-Gaelic' (3,402 aligned documents0.6M links26.8M tokens)" href="download.php?f=Europarl/v8syn/xml/gd-lt.xml.gz">ces</a></td>
 <td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Lithuanian-Gaelic' (3,402 aligned documents, 0.6M links, 26.8M tokens)" href="download.php?f=Europarl/v8syn/xml/gd-lt.xml.gz">ces</a></td>
+<td bgcolor='#e4ffc8'><a rel="nofollow" title="sentence alignments for 'Lithuanian-Icelandic' (3,645 aligned documents0.6M links24.6M tokens)" href="download.php?f=Europarl/v8syn/xml/is-lt.xml.gz">ces</a></td>
 <td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Lithuanian-Icelandic' (3,645 aligned documents, 0.6M links, 24.6M tokens)" href="download.php?f=Europarl/v8syn/xml/is-lt.xml.gz">ces</a></td>
-<td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Lithuanian-Georgian' (3,648 aligned documents, 0.6M links, 21.2M tokens)" href="download.php?f=Europarl/v8syn/xml/ka-lt.xml.gz">ces</a></td>
+<td bgcolor='#e5ffc9'><a rel="nofollow" title="sentence alignments for 'Lithuanian-Georgian' (3,648 aligned documents0.6M links21.2M tokens)" href="download.php?f=Europarl/v8syn/xml/ka-lt.xml.gz">ces</a></td>
 <th></th>
 <td></td><td><a rel="nofollow" title="Lithuanian-Macedonian (sample file)" href="Europarl/v8syn/lt-mk_sample.html">view</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td><a rel="nofollow" title="Lithuanian-Somali (sample file)" href="Europarl/v8syn/lt-so_sample.html">view</a></td><td></td><th>lt</th>
-<td><a rel="nofollow" title="Lithuanian-Ukrainian (sample file)" href="Europarl/v8syn/lt-uk_sample.html">view</a></td><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/lt.zip">lt</a></th></tr>
-<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/xml/lv.zip">lv</a></th>
+<td><a rel="nofollow" title="Lithuanian-Ukrainian (sample file)" href="Europarl/v8syn/lt-uk_sample.html">view</a></td><th>lt</th></tr>
+<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/lv.zip">lv</a></th>
+<td>9,736</td><td>12.1M</td><td>0.7M</td><td></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
+<td bgcolor='#e5ffc8'><a rel="nofollow" title="sentence alignments for 'Latvian-Basque' (3,314 aligned documents0.6M links21.1M tokens)" href="download.php?f=Europarl/v8syn/xml/eu-lv.xml.gz">ces</a></td>
 <td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Latvian-Basque' (3,314 aligned documents, 0.6M links, 21.1M tokens)" href="download.php?f=Europarl/v8syn/xml/eu-lv.xml.gz">ces</a></td>
 <td></td>
+<td bgcolor='#e5ffc8'><a rel="nofollow" title="sentence alignments for 'Latvian-Gaelic' (3,380 aligned documents0.6M links27.5M tokens)" href="download.php?f=Europarl/v8syn/xml/gd-lv.xml.gz">ces</a></td>
 <td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Latvian-Gaelic' (3,380 aligned documents, 0.6M links, 27.5M tokens)" href="download.php?f=Europarl/v8syn/xml/gd-lv.xml.gz">ces</a></td>
+<td bgcolor='#e4ffc8'><a rel="nofollow" title="sentence alignments for 'Latvian-Icelandic' (3,619 aligned documents0.6M links25.2M tokens)" href="download.php?f=Europarl/v8syn/xml/is-lv.xml.gz">ces</a></td>
 <td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Latvian-Icelandic' (3,619 aligned documents, 0.6M links, 25.2M tokens)" href="download.php?f=Europarl/v8syn/xml/is-lv.xml.gz">ces</a></td>
-<td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Latvian-Georgian' (3,622 aligned documents, 0.6M links, 21.8M tokens)" href="download.php?f=Europarl/v8syn/xml/ka-lv.xml.gz">ces</a></td>
+<td bgcolor='#e5ffc9'><a rel="nofollow" title="sentence alignments for 'Latvian-Georgian' (3,622 aligned documents0.6M links21.8M tokens)" href="download.php?f=Europarl/v8syn/xml/ka-lv.xml.gz">ces</a></td>
 <td></td>
 <th></th>
 <td><a rel="nofollow" title="Latvian-Macedonian (sample file)" href="Europarl/v8syn/lv-mk_sample.html">view</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td><a rel="nofollow" title="Latvian-Somali (sample file)" href="Europarl/v8syn/lv-so_sample.html">view</a></td><td></td><th>lv</th>
-<td><a rel="nofollow" title="Latvian-Ukrainian (sample file)" href="Europarl/v8syn/lv-uk_sample.html">view</a></td><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/lv.zip">lv</a></th></tr>
-<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/xml/mk.zip">mk</a></th>
-<td><a rel="nofollow" title="sentence alignments for 'Macedonian-Bulgarian' (2,125 aligned documents, 0.3M links, 16.1M tokens)" href="download.php?f=Europarl/v8syn/xml/bg-mk.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Macedonian-Czech' (3,154 aligned documents, 0.5M links, 23.9M tokens)" href="download.php?f=Europarl/v8syn/xml/cs-mk.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Macedonian-Danish' (4,176 aligned documents, 1.7M links, 78.4M tokens)" href="download.php?f=Europarl/v8syn/xml/da-mk.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Macedonian-German' (4,082 aligned documents, 1.6M links, 78.3M tokens)" href="download.php?f=Europarl/v8syn/xml/de-mk.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Macedonian-Greek' (4,080 aligned documents, 1.1M links, 53.7M tokens)" href="download.php?f=Europarl/v8syn/xml/el-mk.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Macedonian-English' (4,893 aligned documents, 2.0M links, 98.3M tokens)" href="download.php?f=Europarl/v8syn/xml/en-mk.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Macedonian-Basque' (4,751 aligned documents, 1.9M links, 80.5M tokens)" href="download.php?f=Europarl/v8syn/xml/eu-mk.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Macedonian-Finnish' (4,148 aligned documents, 1.6M links, 67.2M tokens)" href="download.php?f=Europarl/v8syn/xml/fi-mk.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Macedonian-French' (4,246 aligned documents, 1.7M links, 86.5M tokens)" href="download.php?f=Europarl/v8syn/xml/fr-mk.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Macedonian-Gaelic' (4,502 aligned documents, 1.8M links, 95.9M tokens)" href="download.php?f=Europarl/v8syn/xml/gd-mk.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Macedonian-Hungarian' (3,083 aligned documents, 0.5M links, 22.9M tokens)" href="download.php?f=Europarl/v8syn/xml/hu-mk.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Macedonian-Icelandic' (4,892 aligned documents, 2.0M links, 92.1M tokens)" href="download.php?f=Europarl/v8syn/xml/is-mk.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Macedonian-Italian' (4,268 aligned documents, 1.6M links, 81.8M tokens)" href="download.php?f=Europarl/v8syn/xml/it-mk.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Macedonian-Georgian' (4,892 aligned documents, 2.0M links, 80.7M tokens)" href="download.php?f=Europarl/v8syn/xml/ka-mk.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Macedonian-Lithuanian' (3,142 aligned documents, 0.5M links, 22.2M tokens)" href="download.php?f=Europarl/v8syn/xml/lt-mk.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Macedonian-Latvian' (3,114 aligned documents, 0.5M links, 22.7M tokens)" href="download.php?f=Europarl/v8syn/xml/lv-mk.xml.gz">ces</a></td>
+<td><a rel="nofollow" title="Latvian-Ukrainian (sample file)" href="Europarl/v8syn/lv-uk_sample.html">view</a></td><th>lv</th></tr>
+<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/mk.zip">mk</a></th>
+<td>4,893</td><td>47.4M</td><td>2.0M</td><td bgcolor='#ebffcd'><a rel="nofollow" title="sentence alignments for 'Macedonian-Bulgarian' (2,125 aligned documents0.3M links16.1M tokens)" href="download.php?f=Europarl/v8syn/xml/bg-mk.xml.gz">ces</a></td>
+<td bgcolor='#e6ffc9'><a rel="nofollow" title="sentence alignments for 'Macedonian-Czech' (3,154 aligned documents0.5M links23.9M tokens)" href="download.php?f=Europarl/v8syn/xml/cs-mk.xml.gz">ces</a></td>
+<td bgcolor='#daffc6'><a rel="nofollow" title="sentence alignments for 'Macedonian-Danish' (4,176 aligned documents1.7M links78.4M tokens)" href="download.php?f=Europarl/v8syn/xml/da-mk.xml.gz">ces</a></td>
+<td bgcolor='#daffc6'><a rel="nofollow" title="sentence alignments for 'Macedonian-German' (4,082 aligned documents1.6M links78.3M tokens)" href="download.php?f=Europarl/v8syn/xml/de-mk.xml.gz">ces</a></td>
+<td bgcolor='#dfffc6'><a rel="nofollow" title="sentence alignments for 'Macedonian-Greek' (4,080 aligned documents1.1M links53.7M tokens)" href="download.php?f=Europarl/v8syn/xml/el-mk.xml.gz">ces</a></td>
+<td bgcolor='#d8ffc7'><a rel="nofollow" title="sentence alignments for 'Macedonian-English' (4,893 aligned documents2.0M links98.3M tokens)" href="download.php?f=Europarl/v8syn/xml/en-mk.xml.gz">ces</a></td>
+<td bgcolor='#d9ffc7'><a rel="nofollow" title="sentence alignments for 'Macedonian-Basque' (4,751 aligned documents1.9M links80.5M tokens)" href="download.php?f=Europarl/v8syn/xml/eu-mk.xml.gz">ces</a></td>
+<td bgcolor='#daffc6'><a rel="nofollow" title="sentence alignments for 'Macedonian-Finnish' (4,148 aligned documents1.6M links67.2M tokens)" href="download.php?f=Europarl/v8syn/xml/fi-mk.xml.gz">ces</a></td>
+<td bgcolor='#daffc7'><a rel="nofollow" title="sentence alignments for 'Macedonian-French' (4,246 aligned documents1.7M links86.5M tokens)" href="download.php?f=Europarl/v8syn/xml/fr-mk.xml.gz">ces</a></td>
+<td bgcolor='#d9ffc6'><a rel="nofollow" title="sentence alignments for 'Macedonian-Gaelic' (4,502 aligned documents1.8M links95.9M tokens)" href="download.php?f=Europarl/v8syn/xml/gd-mk.xml.gz">ces</a></td>
+<td bgcolor='#e6ffc9'><a rel="nofollow" title="sentence alignments for 'Macedonian-Hungarian' (3,083 aligned documents0.5M links22.9M tokens)" href="download.php?f=Europarl/v8syn/xml/hu-mk.xml.gz">ces</a></td>
+<td bgcolor='#d8ffc7'><a rel="nofollow" title="sentence alignments for 'Macedonian-Icelandic' (4,892 aligned documents2.0M links92.1M tokens)" href="download.php?f=Europarl/v8syn/xml/is-mk.xml.gz">ces</a></td>
+<td bgcolor='#daffc6'><a rel="nofollow" title="sentence alignments for 'Macedonian-Italian' (4,268 aligned documents1.6M links81.8M tokens)" href="download.php?f=Europarl/v8syn/xml/it-mk.xml.gz">ces</a></td>
+<td bgcolor='#d8ffc7'><a rel="nofollow" title="sentence alignments for 'Macedonian-Georgian' (4,892 aligned documents2.0M links80.7M tokens)" href="download.php?f=Europarl/v8syn/xml/ka-mk.xml.gz">ces</a></td>
+<td bgcolor='#e6ffc9'><a rel="nofollow" title="sentence alignments for 'Macedonian-Lithuanian' (3,142 aligned documents0.5M links22.2M tokens)" href="download.php?f=Europarl/v8syn/xml/lt-mk.xml.gz">ces</a></td>
+<td bgcolor='#e6ffc9'><a rel="nofollow" title="sentence alignments for 'Macedonian-Latvian' (3,114 aligned documents0.5M links22.7M tokens)" href="download.php?f=Europarl/v8syn/xml/lv-mk.xml.gz">ces</a></td>
 <th></th>
 <td><a rel="nofollow" title="Macedonian-Dutch (sample file)" href="Europarl/v8syn/mk-nl_sample.html">view</a></td><td><a rel="nofollow" title="Macedonian-Polish (sample file)" href="Europarl/v8syn/mk-pl_sample.html">view</a></td><td><a rel="nofollow" title="Macedonian-Portuguese (sample file)" href="Europarl/v8syn/mk-pt_sample.html">view</a></td><td><a rel="nofollow" title="Macedonian-Romanian (sample file)" href="Europarl/v8syn/mk-ro_sample.html">view</a></td><td><a rel="nofollow" title="Macedonian-Slovak (sample file)" href="Europarl/v8syn/mk-sk_sample.html">view</a></td><td><a rel="nofollow" title="Macedonian-Slovenian (sample file)" href="Europarl/v8syn/mk-sl_sample.html">view</a></td><td><a rel="nofollow" title="Macedonian-Somali (sample file)" href="Europarl/v8syn/mk-so_sample.html">view</a></td><td><a rel="nofollow" title="Macedonian-Swedish (sample file)" href="Europarl/v8syn/mk-sv_sample.html">view</a></td><th>mk</th>
-<td><a rel="nofollow" title="Macedonian-Ukrainian (sample file)" href="Europarl/v8syn/mk-uk_sample.html">view</a></td><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/mk.zip">mk</a></th></tr>
-<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/xml/nl.zip">nl</a></th>
+<td><a rel="nofollow" title="Macedonian-Ukrainian (sample file)" href="Europarl/v8syn/mk-uk_sample.html">view</a></td><th>mk</th></tr>
+<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/nl.zip">nl</a></th>
+<td>10,383</td><td>54.8M</td><td>2.4M</td><td></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
-<td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Dutch-Basque' (4,488 aligned documents, 1.8M links, 78.6M tokens)" href="download.php?f=Europarl/v8syn/xml/eu-nl.xml.gz">ces</a></td>
-<td></td>
-<td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Dutch-Gaelic' (4,565 aligned documents, 1.8M links, 99.2M tokens)" href="download.php?f=Europarl/v8syn/xml/gd-nl.xml.gz">ces</a></td>
-<td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Dutch-Icelandic' (4,913 aligned documents, 1.9M links, 94.8M tokens)" href="download.php?f=Europarl/v8syn/xml/is-nl.xml.gz">ces</a></td>
-<td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Dutch-Georgian' (4,916 aligned documents, 1.9M links, 83.5M tokens)" href="download.php?f=Europarl/v8syn/xml/ka-nl.xml.gz">ces</a></td>
+<td bgcolor='#daffc7'><a rel="nofollow" title="sentence alignments for 'Dutch-Basque' (4,488 aligned documents1.8M links78.6M tokens)" href="download.php?f=Europarl/v8syn/xml/eu-nl.xml.gz">ces</a></td>
 <td></td>
 <td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Dutch-Macedonian' (4,227 aligned documents, 1.7M links, 84.1M tokens)" href="download.php?f=Europarl/v8syn/xml/mk-nl.xml.gz">ces</a></td>
+<td bgcolor='#d9ffc6'><a rel="nofollow" title="sentence alignments for 'Dutch-Gaelic' (4,565 aligned documents1.8M links99.2M tokens)" href="download.php?f=Europarl/v8syn/xml/gd-nl.xml.gz">ces</a></td>
+<td></td>
+<td bgcolor='#d9ffc7'><a rel="nofollow" title="sentence alignments for 'Dutch-Icelandic' (4,913 aligned documents1.9M links94.8M tokens)" href="download.php?f=Europarl/v8syn/xml/is-nl.xml.gz">ces</a></td>
+<td></td>
+<td bgcolor='#d9ffc7'><a rel="nofollow" title="sentence alignments for 'Dutch-Georgian' (4,916 aligned documents1.9M links83.5M tokens)" href="download.php?f=Europarl/v8syn/xml/ka-nl.xml.gz">ces</a></td>
+<td></td>
+<td></td>
+<td bgcolor='#daffc6'><a rel="nofollow" title="sentence alignments for 'Dutch-Macedonian' (4,227 aligned documents1.7M links84.1M tokens)" href="download.php?f=Europarl/v8syn/xml/mk-nl.xml.gz">ces</a></td>
 <th></th>
 <td></td><td></td><td></td><td></td><td></td><td><a rel="nofollow" title="Dutch-Somali (sample file)" href="Europarl/v8syn/nl-so_sample.html">view</a></td><td></td><th>nl</th>
-<td><a rel="nofollow" title="Dutch-Ukrainian (sample file)" href="Europarl/v8syn/nl-uk_sample.html">view</a></td><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/nl.zip">nl</a></th></tr>
-<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/xml/pl.zip">pl</a></th>
+<td><a rel="nofollow" title="Dutch-Ukrainian (sample file)" href="Europarl/v8syn/nl-uk_sample.html">view</a></td><th>nl</th></tr>
+<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/pl.zip">pl</a></th>
+<td>9,793</td><td>13.1M</td><td>0.7M</td><td></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
-<td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Polish-Basque' (3,344 aligned documents, 0.6M links, 21.8M tokens)" href="download.php?f=Europarl/v8syn/xml/eu-pl.xml.gz">ces</a></td>
-<td></td>
-<td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Polish-Gaelic' (3,409 aligned documents, 0.6M links, 28.1M tokens)" href="download.php?f=Europarl/v8syn/xml/gd-pl.xml.gz">ces</a></td>
-<td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Polish-Icelandic' (3,651 aligned documents, 0.6M links, 25.9M tokens)" href="download.php?f=Europarl/v8syn/xml/is-pl.xml.gz">ces</a></td>
-<td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Polish-Georgian' (3,654 aligned documents, 0.6M links, 22.5M tokens)" href="download.php?f=Europarl/v8syn/xml/ka-pl.xml.gz">ces</a></td>
+<td bgcolor='#e5ffc8'><a rel="nofollow" title="sentence alignments for 'Polish-Basque' (3,344 aligned documents0.6M links21.8M tokens)" href="download.php?f=Europarl/v8syn/xml/eu-pl.xml.gz">ces</a></td>
 <td></td>
 <td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Polish-Macedonian' (3,146 aligned documents, 0.5M links, 23.4M tokens)" href="download.php?f=Europarl/v8syn/xml/mk-pl.xml.gz">ces</a></td>
+<td bgcolor='#e5ffc8'><a rel="nofollow" title="sentence alignments for 'Polish-Gaelic' (3,409 aligned documents0.6M links28.1M tokens)" href="download.php?f=Europarl/v8syn/xml/gd-pl.xml.gz">ces</a></td>
+<td></td>
+<td bgcolor='#e5ffc9'><a rel="nofollow" title="sentence alignments for 'Polish-Icelandic' (3,651 aligned documents0.6M links25.9M tokens)" href="download.php?f=Europarl/v8syn/xml/is-pl.xml.gz">ces</a></td>
+<td></td>
+<td bgcolor='#e5ffc9'><a rel="nofollow" title="sentence alignments for 'Polish-Georgian' (3,654 aligned documents0.6M links22.5M tokens)" href="download.php?f=Europarl/v8syn/xml/ka-pl.xml.gz">ces</a></td>
+<td></td>
+<td></td>
+<td bgcolor='#e6ffc9'><a rel="nofollow" title="sentence alignments for 'Polish-Macedonian' (3,146 aligned documents0.5M links23.4M tokens)" href="download.php?f=Europarl/v8syn/xml/mk-pl.xml.gz">ces</a></td>
 <td></td>
 <th></th>
 <td></td><td></td><td></td><td></td><td><a rel="nofollow" title="Polish-Somali (sample file)" href="Europarl/v8syn/pl-so_sample.html">view</a></td><td></td><th>pl</th>
-<td><a rel="nofollow" title="Polish-Ukrainian (sample file)" href="Europarl/v8syn/pl-uk_sample.html">view</a></td><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/pl.zip">pl</a></th></tr>
-<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/xml/pt.zip">pt</a></th>
+<td><a rel="nofollow" title="Polish-Ukrainian (sample file)" href="Europarl/v8syn/pl-uk_sample.html">view</a></td><th>pl</th></tr>
+<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/pt.zip">pt</a></th>
+<td>10,385</td><td>54.4M</td><td>2.2M</td><td></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
-<td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Portuguese-Basque' (4,491 aligned documents, 1.7M links, 78.1M tokens)" href="download.php?f=Europarl/v8syn/xml/eu-pt.xml.gz">ces</a></td>
-<td></td>
-<td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Portuguese-Gaelic' (4,565 aligned documents, 1.8M links, 98.5M tokens)" href="download.php?f=Europarl/v8syn/xml/gd-pt.xml.gz">ces</a></td>
-<td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Portuguese-Icelandic' (4,913 aligned documents, 1.9M links, 94.0M tokens)" href="download.php?f=Europarl/v8syn/xml/is-pt.xml.gz">ces</a></td>
-<td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Portuguese-Georgian' (4,916 aligned documents, 1.9M links, 82.8M tokens)" href="download.php?f=Europarl/v8syn/xml/ka-pt.xml.gz">ces</a></td>
+<td bgcolor='#daffc7'><a rel="nofollow" title="sentence alignments for 'Portuguese-Basque' (4,491 aligned documents1.7M links78.1M tokens)" href="download.php?f=Europarl/v8syn/xml/eu-pt.xml.gz">ces</a></td>
 <td></td>
 <td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Portuguese-Macedonian' (4,229 aligned documents, 1.7M links, 83.5M tokens)" href="download.php?f=Europarl/v8syn/xml/mk-pt.xml.gz">ces</a></td>
+<td bgcolor='#daffc7'><a rel="nofollow" title="sentence alignments for 'Portuguese-Gaelic' (4,565 aligned documents1.8M links98.5M tokens)" href="download.php?f=Europarl/v8syn/xml/gd-pt.xml.gz">ces</a></td>
+<td></td>
+<td bgcolor='#d9ffc7'><a rel="nofollow" title="sentence alignments for 'Portuguese-Icelandic' (4,913 aligned documents1.9M links94.0M tokens)" href="download.php?f=Europarl/v8syn/xml/is-pt.xml.gz">ces</a></td>
+<td></td>
+<td bgcolor='#d9ffc7'><a rel="nofollow" title="sentence alignments for 'Portuguese-Georgian' (4,916 aligned documents1.9M links82.8M tokens)" href="download.php?f=Europarl/v8syn/xml/ka-pt.xml.gz">ces</a></td>
+<td></td>
+<td></td>
+<td bgcolor='#daffc6'><a rel="nofollow" title="sentence alignments for 'Portuguese-Macedonian' (4,229 aligned documents1.7M links83.5M tokens)" href="download.php?f=Europarl/v8syn/xml/mk-pt.xml.gz">ces</a></td>
 <td></td>
 <td></td>
 <th></th>
 <td></td><td></td><td></td><td><a rel="nofollow" title="Portuguese-Somali (sample file)" href="Europarl/v8syn/pt-so_sample.html">view</a></td><td></td><th>pt</th>
-<td><a rel="nofollow" title="Portuguese-Ukrainian (sample file)" href="Europarl/v8syn/pt-uk_sample.html">view</a></td><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/pt.zip">pt</a></th></tr>
-<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/xml/ro.zip">ro</a></th>
+<td><a rel="nofollow" title="Portuguese-Ukrainian (sample file)" href="Europarl/v8syn/pt-uk_sample.html">view</a></td><th>pt</th></tr>
+<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/ro.zip">ro</a></th>
+<td>7,530</td><td>9.7M</td><td>0.4M</td><td></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
-<td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Romanian-Basque' (2,262 aligned documents, 0.4M links, 15.3M tokens)" href="download.php?f=Europarl/v8syn/xml/eu-ro.xml.gz">ces</a></td>
-<td></td>
-<td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Romanian-Gaelic' (2,288 aligned documents, 0.4M links, 19.3M tokens)" href="download.php?f=Europarl/v8syn/xml/gd-ro.xml.gz">ces</a></td>
-<td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Romanian-Icelandic' (2,450 aligned documents, 0.4M links, 17.9M tokens)" href="download.php?f=Europarl/v8syn/xml/is-ro.xml.gz">ces</a></td>
-<td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Romanian-Georgian' (2,454 aligned documents, 0.4M links, 15.7M tokens)" href="download.php?f=Europarl/v8syn/xml/ka-ro.xml.gz">ces</a></td>
+<td bgcolor='#eaffcc'><a rel="nofollow" title="sentence alignments for 'Romanian-Basque' (2,262 aligned documents0.4M links15.3M tokens)" href="download.php?f=Europarl/v8syn/xml/eu-ro.xml.gz">ces</a></td>
 <td></td>
 <td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Romanian-Macedonian' (2,120 aligned documents, 0.3M links, 16.1M tokens)" href="download.php?f=Europarl/v8syn/xml/mk-ro.xml.gz">ces</a></td>
+<td bgcolor='#eaffcc'><a rel="nofollow" title="sentence alignments for 'Romanian-Gaelic' (2,288 aligned documents0.4M links19.3M tokens)" href="download.php?f=Europarl/v8syn/xml/gd-ro.xml.gz">ces</a></td>
+<td></td>
+<td bgcolor='#e9ffcb'><a rel="nofollow" title="sentence alignments for 'Romanian-Icelandic' (2,450 aligned documents0.4M links17.9M tokens)" href="download.php?f=Europarl/v8syn/xml/is-ro.xml.gz">ces</a></td>
+<td></td>
+<td bgcolor='#eaffcc'><a rel="nofollow" title="sentence alignments for 'Romanian-Georgian' (2,454 aligned documents0.4M links15.7M tokens)" href="download.php?f=Europarl/v8syn/xml/ka-ro.xml.gz">ces</a></td>
+<td></td>
+<td></td>
+<td bgcolor='#ebffcd'><a rel="nofollow" title="sentence alignments for 'Romanian-Macedonian' (2,120 aligned documents0.3M links16.1M tokens)" href="download.php?f=Europarl/v8syn/xml/mk-ro.xml.gz">ces</a></td>
 <td></td>
 <td></td>
 <td></td>
 <th></th>
 <td></td><td></td><td><a rel="nofollow" title="Romanian-Somali (sample file)" href="Europarl/v8syn/ro-so_sample.html">view</a></td><td></td><th>ro</th>
-<td><a rel="nofollow" title="Romanian-Ukrainian (sample file)" href="Europarl/v8syn/ro-uk_sample.html">view</a></td><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/ro.zip">ro</a></th></tr>
-<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/xml/sk.zip">sk</a></th>
+<td><a rel="nofollow" title="Romanian-Ukrainian (sample file)" href="Europarl/v8syn/ro-uk_sample.html">view</a></td><th>ro</th></tr>
+<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/sk.zip">sk</a></th>
+<td>9,740</td><td>13.1M</td><td>0.7M</td><td></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
-<td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Slovak-Basque' (3,322 aligned documents, 0.6M links, 22.0M tokens)" href="download.php?f=Europarl/v8syn/xml/eu-sk.xml.gz">ces</a></td>
-<td></td>
-<td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Slovak-Gaelic' (3,389 aligned documents, 0.6M links, 28.4M tokens)" href="download.php?f=Europarl/v8syn/xml/gd-sk.xml.gz">ces</a></td>
-<td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Slovak-Icelandic' (3,630 aligned documents, 0.6M links, 26.2M tokens)" href="download.php?f=Europarl/v8syn/xml/is-sk.xml.gz">ces</a></td>
-<td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Slovak-Georgian' (3,633 aligned documents, 0.6M links, 22.8M tokens)" href="download.php?f=Europarl/v8syn/xml/ka-sk.xml.gz">ces</a></td>
+<td bgcolor='#e5ffc8'><a rel="nofollow" title="sentence alignments for 'Slovak-Basque' (3,322 aligned documents0.6M links22.0M tokens)" href="download.php?f=Europarl/v8syn/xml/eu-sk.xml.gz">ces</a></td>
 <td></td>
 <td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Slovak-Macedonian' (3,123 aligned documents, 0.5M links, 23.6M tokens)" href="download.php?f=Europarl/v8syn/xml/mk-sk.xml.gz">ces</a></td>
+<td bgcolor='#e5ffc8'><a rel="nofollow" title="sentence alignments for 'Slovak-Gaelic' (3,389 aligned documents0.6M links28.4M tokens)" href="download.php?f=Europarl/v8syn/xml/gd-sk.xml.gz">ces</a></td>
+<td></td>
+<td bgcolor='#e4ffc8'><a rel="nofollow" title="sentence alignments for 'Slovak-Icelandic' (3,630 aligned documents0.6M links26.2M tokens)" href="download.php?f=Europarl/v8syn/xml/is-sk.xml.gz">ces</a></td>
+<td></td>
+<td bgcolor='#e5ffc9'><a rel="nofollow" title="sentence alignments for 'Slovak-Georgian' (3,633 aligned documents0.6M links22.8M tokens)" href="download.php?f=Europarl/v8syn/xml/ka-sk.xml.gz">ces</a></td>
+<td></td>
+<td></td>
+<td bgcolor='#e6ffc9'><a rel="nofollow" title="sentence alignments for 'Slovak-Macedonian' (3,123 aligned documents0.5M links23.6M tokens)" href="download.php?f=Europarl/v8syn/xml/mk-sk.xml.gz">ces</a></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 <th></th>
 <td></td><td><a rel="nofollow" title="Slovak-Somali (sample file)" href="Europarl/v8syn/sk-so_sample.html">view</a></td><td></td><th>sk</th>
-<td><a rel="nofollow" title="Slovak-Ukrainian (sample file)" href="Europarl/v8syn/sk-uk_sample.html">view</a></td><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/sk.zip">sk</a></th></tr>
-<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/xml/sl.zip">sl</a></th>
+<td><a rel="nofollow" title="Slovak-Ukrainian (sample file)" href="Europarl/v8syn/sk-uk_sample.html">view</a></td><th>sk</th></tr>
+<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/sl.zip">sl</a></th>
+<td>9,703</td><td>12.7M</td><td>0.6M</td><td></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
-<td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Slovenian-Basque' (3,281 aligned documents, 0.5M links, 21.3M tokens)" href="download.php?f=Europarl/v8syn/xml/eu-sl.xml.gz">ces</a></td>
-<td></td>
-<td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Slovenian-Gaelic' (3,347 aligned documents, 0.6M links, 27.6M tokens)" href="download.php?f=Europarl/v8syn/xml/gd-sl.xml.gz">ces</a></td>
-<td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Slovenian-Icelandic' (3,583 aligned documents, 0.6M links, 25.5M tokens)" href="download.php?f=Europarl/v8syn/xml/is-sl.xml.gz">ces</a></td>
-<td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Slovenian-Georgian' (3,586 aligned documents, 0.6M links, 22.1M tokens)" href="download.php?f=Europarl/v8syn/xml/ka-sl.xml.gz">ces</a></td>
+<td bgcolor='#e5ffc8'><a rel="nofollow" title="sentence alignments for 'Slovenian-Basque' (3,281 aligned documents0.5M links21.3M tokens)" href="download.php?f=Europarl/v8syn/xml/eu-sl.xml.gz">ces</a></td>
 <td></td>
 <td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Slovenian-Macedonian' (3,083 aligned documents, 0.5M links, 22.9M tokens)" href="download.php?f=Europarl/v8syn/xml/mk-sl.xml.gz">ces</a></td>
+<td bgcolor='#e5ffc8'><a rel="nofollow" title="sentence alignments for 'Slovenian-Gaelic' (3,347 aligned documents0.6M links27.6M tokens)" href="download.php?f=Europarl/v8syn/xml/gd-sl.xml.gz">ces</a></td>
+<td></td>
+<td bgcolor='#e5ffc9'><a rel="nofollow" title="sentence alignments for 'Slovenian-Icelandic' (3,583 aligned documents0.6M links25.5M tokens)" href="download.php?f=Europarl/v8syn/xml/is-sl.xml.gz">ces</a></td>
+<td></td>
+<td bgcolor='#e5ffc9'><a rel="nofollow" title="sentence alignments for 'Slovenian-Georgian' (3,586 aligned documents0.6M links22.1M tokens)" href="download.php?f=Europarl/v8syn/xml/ka-sl.xml.gz">ces</a></td>
+<td></td>
+<td></td>
+<td bgcolor='#e6ffc9'><a rel="nofollow" title="sentence alignments for 'Slovenian-Macedonian' (3,083 aligned documents0.5M links22.9M tokens)" href="download.php?f=Europarl/v8syn/xml/mk-sl.xml.gz">ces</a></td>
 <td></td>
 <td></td>
 <td></td>
@@ -384,62 +385,62 @@
 <td></td>
 <th></th>
 <td><a rel="nofollow" title="Slovenian-Somali (sample file)" href="Europarl/v8syn/sl-so_sample.html">view</a></td><td></td><th>sl</th>
-<td><a rel="nofollow" title="Slovenian-Ukrainian (sample file)" href="Europarl/v8syn/sl-uk_sample.html">view</a></td><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/sl.zip">sl</a></th></tr>
-<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/xml/so.zip">so</a></th>
-<td><a rel="nofollow" title="sentence alignments for 'Somali-Bulgarian' (2,446 aligned documents, 0.4M links, 18.9M tokens)" href="download.php?f=Europarl/v8syn/xml/bg-so.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Somali-Czech' (3,656 aligned documents, 0.6M links, 28.3M tokens)" href="download.php?f=Europarl/v8syn/xml/cs-so.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Somali-Danish' (4,850 aligned documents, 1.9M links, 93.7M tokens)" href="download.php?f=Europarl/v8syn/xml/da-so.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Somali-German' (4,722 aligned documents, 1.9M links, 92.8M tokens)" href="download.php?f=Europarl/v8syn/xml/de-so.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Somali-Greek' (4,742 aligned documents, 1.2M links, 64.3M tokens)" href="download.php?f=Europarl/v8syn/xml/el-so.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Somali-English' (5,689 aligned documents, 2.4M links, 118.0M tokens)" href="download.php?f=Europarl/v8syn/xml/en-so.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Somali-Basque' (5,198 aligned documents, 2.1M links, 91.8M tokens)" href="download.php?f=Europarl/v8syn/xml/eu-so.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Somali-Finnish' (4,812 aligned documents, 1.9M links, 80.1M tokens)" href="download.php?f=Europarl/v8syn/xml/fi-so.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Somali-French' (4,927 aligned documents, 2.0M links, 103.0M tokens)" href="download.php?f=Europarl/v8syn/xml/fr-so.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Somali-Gaelic' (5,298 aligned documents, 2.1M links, 116.5M tokens)" href="download.php?f=Europarl/v8syn/xml/gd-so.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Somali-Hungarian' (3,579 aligned documents, 0.6M links, 27.2M tokens)" href="download.php?f=Europarl/v8syn/xml/hu-so.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Somali-Icelandic' (5,687 aligned documents, 2.3M links, 110.9M tokens)" href="download.php?f=Europarl/v8syn/xml/is-so.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Somali-Italian' (4,957 aligned documents, 1.9M links, 97.4M tokens)" href="download.php?f=Europarl/v8syn/xml/it-so.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Somali-Georgian' (5,688 aligned documents, 2.3M links, 97.5M tokens)" href="download.php?f=Europarl/v8syn/xml/ka-so.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Somali-Lithuanian' (3,641 aligned documents, 0.6M links, 26.4M tokens)" href="download.php?f=Europarl/v8syn/xml/lt-so.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Somali-Latvian' (3,615 aligned documents, 0.6M links, 27.1M tokens)" href="download.php?f=Europarl/v8syn/xml/lv-so.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Somali-Macedonian' (4,886 aligned documents, 2.0M links, 97.7M tokens)" href="download.php?f=Europarl/v8syn/xml/mk-so.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Somali-Dutch' (4,909 aligned documents, 1.9M links, 100.2M tokens)" href="download.php?f=Europarl/v8syn/xml/nl-so.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Somali-Polish' (3,647 aligned documents, 0.6M links, 27.8M tokens)" href="download.php?f=Europarl/v8syn/xml/pl-so.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Somali-Portuguese' (4,909 aligned documents, 1.9M links, 99.4M tokens)" href="download.php?f=Europarl/v8syn/xml/pt-so.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Somali-Romanian' (2,446 aligned documents, 0.4M links, 19.1M tokens)" href="download.php?f=Europarl/v8syn/xml/ro-so.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Somali-Slovak' (3,626 aligned documents, 0.6M links, 28.1M tokens)" href="download.php?f=Europarl/v8syn/xml/sk-so.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Somali-Slovenian' (3,579 aligned documents, 0.6M links, 27.2M tokens)" href="download.php?f=Europarl/v8syn/xml/sl-so.xml.gz">ces</a></td>
+<td><a rel="nofollow" title="Slovenian-Ukrainian (sample file)" href="Europarl/v8syn/sl-uk_sample.html">view</a></td><th>sl</th></tr>
+<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/so.zip">so</a></th>
+<td>5,689</td><td>59.0M</td><td>2.4M</td><td bgcolor='#e9ffcb'><a rel="nofollow" title="sentence alignments for 'Somali-Bulgarian' (2,446 aligned documents0.4M links18.9M tokens)" href="download.php?f=Europarl/v8syn/xml/bg-so.xml.gz">ces</a></td>
+<td bgcolor='#e4ffc8'><a rel="nofollow" title="sentence alignments for 'Somali-Czech' (3,656 aligned documents0.6M links28.3M tokens)" href="download.php?f=Europarl/v8syn/xml/cs-so.xml.gz">ces</a></td>
+<td bgcolor='#d9ffc7'><a rel="nofollow" title="sentence alignments for 'Somali-Danish' (4,850 aligned documents1.9M links93.7M tokens)" href="download.php?f=Europarl/v8syn/xml/da-so.xml.gz">ces</a></td>
+<td bgcolor='#d9ffc7'><a rel="nofollow" title="sentence alignments for 'Somali-German' (4,722 aligned documents1.9M links92.8M tokens)" href="download.php?f=Europarl/v8syn/xml/de-so.xml.gz">ces</a></td>
+<td bgcolor='#ddffc6'><a rel="nofollow" title="sentence alignments for 'Somali-Greek' (4,742 aligned documents1.2M links64.3M tokens)" href="download.php?f=Europarl/v8syn/xml/el-so.xml.gz">ces</a></td>
+<td bgcolor='#d6ffc8'><a rel="nofollow" title="sentence alignments for 'Somali-English' (5,689 aligned documents2.4M links118.0M tokens)" href="download.php?f=Europarl/v8syn/xml/en-so.xml.gz">ces</a></td>
+<td bgcolor='#d8ffc8'><a rel="nofollow" title="sentence alignments for 'Somali-Basque' (5,198 aligned documents2.1M links91.8M tokens)" href="download.php?f=Europarl/v8syn/xml/eu-so.xml.gz">ces</a></td>
+<td bgcolor='#d9ffc7'><a rel="nofollow" title="sentence alignments for 'Somali-Finnish' (4,812 aligned documents1.9M links80.1M tokens)" href="download.php?f=Europarl/v8syn/xml/fi-so.xml.gz">ces</a></td>
+<td bgcolor='#d8ffc7'><a rel="nofollow" title="sentence alignments for 'Somali-French' (4,927 aligned documents2.0M links103.0M tokens)" href="download.php?f=Europarl/v8syn/xml/fr-so.xml.gz">ces</a></td>
+<td bgcolor='#d7ffc7'><a rel="nofollow" title="sentence alignments for 'Somali-Gaelic' (5,298 aligned documents2.1M links116.5M tokens)" href="download.php?f=Europarl/v8syn/xml/gd-so.xml.gz">ces</a></td>
+<td bgcolor='#e5ffc9'><a rel="nofollow" title="sentence alignments for 'Somali-Hungarian' (3,579 aligned documents0.6M links27.2M tokens)" href="download.php?f=Europarl/v8syn/xml/hu-so.xml.gz">ces</a></td>
+<td bgcolor='#d6ffc8'><a rel="nofollow" title="sentence alignments for 'Somali-Icelandic' (5,687 aligned documents2.3M links110.9M tokens)" href="download.php?f=Europarl/v8syn/xml/is-so.xml.gz">ces</a></td>
+<td bgcolor='#d9ffc7'><a rel="nofollow" title="sentence alignments for 'Somali-Italian' (4,957 aligned documents1.9M links97.4M tokens)" href="download.php?f=Europarl/v8syn/xml/it-so.xml.gz">ces</a></td>
+<td bgcolor='#d7ffc8'><a rel="nofollow" title="sentence alignments for 'Somali-Georgian' (5,688 aligned documents2.3M links97.5M tokens)" href="download.php?f=Europarl/v8syn/xml/ka-so.xml.gz">ces</a></td>
+<td bgcolor='#e4ffc8'><a rel="nofollow" title="sentence alignments for 'Somali-Lithuanian' (3,641 aligned documents0.6M links26.4M tokens)" href="download.php?f=Europarl/v8syn/xml/lt-so.xml.gz">ces</a></td>
+<td bgcolor='#e4ffc8'><a rel="nofollow" title="sentence alignments for 'Somali-Latvian' (3,615 aligned documents0.6M links27.1M tokens)" href="download.php?f=Europarl/v8syn/xml/lv-so.xml.gz">ces</a></td>
+<td bgcolor='#d8ffc7'><a rel="nofollow" title="sentence alignments for 'Somali-Macedonian' (4,886 aligned documents2.0M links97.7M tokens)" href="download.php?f=Europarl/v8syn/xml/mk-so.xml.gz">ces</a></td>
+<td bgcolor='#d8ffc6'><a rel="nofollow" title="sentence alignments for 'Somali-Dutch' (4,909 aligned documents1.9M links100.2M tokens)" href="download.php?f=Europarl/v8syn/xml/nl-so.xml.gz">ces</a></td>
+<td bgcolor='#e4ffc8'><a rel="nofollow" title="sentence alignments for 'Somali-Polish' (3,647 aligned documents0.6M links27.8M tokens)" href="download.php?f=Europarl/v8syn/xml/pl-so.xml.gz">ces</a></td>
+<td bgcolor='#d9ffc7'><a rel="nofollow" title="sentence alignments for 'Somali-Portuguese' (4,909 aligned documents1.9M links99.4M tokens)" href="download.php?f=Europarl/v8syn/xml/pt-so.xml.gz">ces</a></td>
+<td bgcolor='#e9ffcb'><a rel="nofollow" title="sentence alignments for 'Somali-Romanian' (2,446 aligned documents0.4M links19.1M tokens)" href="download.php?f=Europarl/v8syn/xml/ro-so.xml.gz">ces</a></td>
+<td bgcolor='#e4ffc8'><a rel="nofollow" title="sentence alignments for 'Somali-Slovak' (3,626 aligned documents0.6M links28.1M tokens)" href="download.php?f=Europarl/v8syn/xml/sk-so.xml.gz">ces</a></td>
+<td bgcolor='#e5ffc9'><a rel="nofollow" title="sentence alignments for 'Somali-Slovenian' (3,579 aligned documents0.6M links27.2M tokens)" href="download.php?f=Europarl/v8syn/xml/sl-so.xml.gz">ces</a></td>
 <th></th>
 <td><a rel="nofollow" title="Somali-Swedish (sample file)" href="Europarl/v8syn/so-sv_sample.html">view</a></td><th>so</th>
-<td><a rel="nofollow" title="Somali-Ukrainian (sample file)" href="Europarl/v8syn/so-uk_sample.html">view</a></td><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/so.zip">so</a></th></tr>
-<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/xml/sv.zip">sv</a></th>
+<td><a rel="nofollow" title="Somali-Ukrainian (sample file)" href="Europarl/v8syn/so-uk_sample.html">view</a></td><th>so</th></tr>
+<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/sv.zip">sv</a></th>
+<td>10,345</td><td>46.9M</td><td>2.3M</td><td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td bgcolor='#daffc6'><a rel="nofollow" title="sentence alignments for 'Swedish-Basque' (4,461 aligned documents1.7M links68.5M tokens)" href="download.php?f=Europarl/v8syn/xml/eu-sv.xml.gz">ces</a></td>
+<td></td>
+<td></td>
+<td bgcolor='#daffc6'><a rel="nofollow" title="sentence alignments for 'Swedish-Gaelic' (4,533 aligned documents1.7M links87.3M tokens)" href="download.php?f=Europarl/v8syn/xml/gd-sv.xml.gz">ces</a></td>
+<td></td>
+<td bgcolor='#d9ffc6'><a rel="nofollow" title="sentence alignments for 'Swedish-Icelandic' (4,878 aligned documents1.8M links82.5M tokens)" href="download.php?f=Europarl/v8syn/xml/is-sv.xml.gz">ces</a></td>
+<td></td>
+<td bgcolor='#daffc7'><a rel="nofollow" title="sentence alignments for 'Swedish-Georgian' (4,881 aligned documents1.8M links72.2M tokens)" href="download.php?f=Europarl/v8syn/xml/ka-sv.xml.gz">ces</a></td>
+<td></td>
+<td></td>
+<td bgcolor='#dbffc7'><a rel="nofollow" title="sentence alignments for 'Swedish-Macedonian' (4,202 aligned documents1.6M links73.6M tokens)" href="download.php?f=Europarl/v8syn/xml/mk-sv.xml.gz">ces</a></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Swedish-Basque' (4,461 aligned documents, 1.7M links, 68.5M tokens)" href="download.php?f=Europarl/v8syn/xml/eu-sv.xml.gz">ces</a></td>
-<td></td>
-<td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Swedish-Gaelic' (4,533 aligned documents, 1.7M links, 87.3M tokens)" href="download.php?f=Europarl/v8syn/xml/gd-sv.xml.gz">ces</a></td>
-<td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Swedish-Icelandic' (4,878 aligned documents, 1.8M links, 82.5M tokens)" href="download.php?f=Europarl/v8syn/xml/is-sv.xml.gz">ces</a></td>
-<td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Swedish-Georgian' (4,881 aligned documents, 1.8M links, 72.2M tokens)" href="download.php?f=Europarl/v8syn/xml/ka-sv.xml.gz">ces</a></td>
-<td></td>
-<td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Swedish-Macedonian' (4,202 aligned documents, 1.6M links, 73.6M tokens)" href="download.php?f=Europarl/v8syn/xml/mk-sv.xml.gz">ces</a></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td><a rel="nofollow" title="sentence alignments for 'Swedish-Somali' (4,874 aligned documents, 1.8M links, 87.6M tokens)" href="download.php?f=Europarl/v8syn/xml/so-sv.xml.gz">ces</a></td>
+<td bgcolor='#d9ffc6'><a rel="nofollow" title="sentence alignments for 'Swedish-Somali' (4,874 aligned documents1.8M links87.6M tokens)" href="download.php?f=Europarl/v8syn/xml/so-sv.xml.gz">ces</a></td>
 <th></th>
 <th>sv</th>
-<td><a rel="nofollow" title="Swedish-Ukrainian (sample file)" href="Europarl/v8syn/sv-uk_sample.html">view</a></td><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/sv.zip">sv</a></th></tr>
+<td><a rel="nofollow" title="Swedish-Ukrainian (sample file)" href="Europarl/v8syn/sv-uk_sample.html">view</a></td><th>sv</th></tr>
 <tr><th></th>
 <th>bg</th>
 <th>cs</th>
@@ -469,35 +470,35 @@
 <th></th>
 <th>uk</th>
 <th></th></tr>
-<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/xml/uk.zip">uk</a></th>
-<td><a rel="nofollow" title="sentence alignments for 'Ukrainian-Bulgarian' (2,454 aligned documents, 0.4M links, 16.7M tokens)" href="download.php?f=Europarl/v8syn/xml/bg-uk.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Ukrainian-Czech' (3,663 aligned documents, 0.6M links, 24.8M tokens)" href="download.php?f=Europarl/v8syn/xml/cs-uk.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Ukrainian-Danish' (4,858 aligned documents, 1.9M links, 83.7M tokens)" href="download.php?f=Europarl/v8syn/xml/da-uk.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Ukrainian-German' (4,730 aligned documents, 1.9M links, 83.0M tokens)" href="download.php?f=Europarl/v8syn/xml/de-uk.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Ukrainian-Greek' (4,750 aligned documents, 1.2M links, 57.6M tokens)" href="download.php?f=Europarl/v8syn/xml/el-uk.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Ukrainian-English' (5,699 aligned documents, 2.3M links, 105.7M tokens)" href="download.php?f=Europarl/v8syn/xml/en-uk.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Ukrainian-Basque' (5,207 aligned documents, 2.1M links, 80.8M tokens)" href="download.php?f=Europarl/v8syn/xml/eu-uk.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Ukrainian-Finnish' (4,820 aligned documents, 1.9M links, 70.4M tokens)" href="download.php?f=Europarl/v8syn/xml/fi-uk.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Ukrainian-French' (4,936 aligned documents, 2.0M links, 92.7M tokens)" href="download.php?f=Europarl/v8syn/xml/fr-uk.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Ukrainian-Gaelic' (5,308 aligned documents, 2.1M links, 105.3M tokens)" href="download.php?f=Europarl/v8syn/xml/gd-uk.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Ukrainian-Hungarian' (3,587 aligned documents, 0.6M links, 23.9M tokens)" href="download.php?f=Europarl/v8syn/xml/hu-uk.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Ukrainian-Icelandic' (5,695 aligned documents, 2.3M links, 98.7M tokens)" href="download.php?f=Europarl/v8syn/xml/is-uk.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Ukrainian-Italian' (4,965 aligned documents, 1.9M links, 87.3M tokens)" href="download.php?f=Europarl/v8syn/xml/it-uk.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Ukrainian-Georgian' (5,698 aligned documents, 2.3M links, 85.9M tokens)" href="download.php?f=Europarl/v8syn/xml/ka-uk.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Ukrainian-Lithuanian' (3,649 aligned documents, 0.6M links, 23.0M tokens)" href="download.php?f=Europarl/v8syn/xml/lt-uk.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Ukrainian-Latvian' (3,623 aligned documents, 0.6M links, 23.7M tokens)" href="download.php?f=Europarl/v8syn/xml/lv-uk.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Ukrainian-Macedonian' (4,893 aligned documents, 2.0M links, 87.4M tokens)" href="download.php?f=Europarl/v8syn/xml/mk-uk.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Ukrainian-Dutch' (4,917 aligned documents, 1.9M links, 90.0M tokens)" href="download.php?f=Europarl/v8syn/xml/nl-uk.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Ukrainian-Polish' (3,655 aligned documents, 0.6M links, 24.4M tokens)" href="download.php?f=Europarl/v8syn/xml/pl-uk.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Ukrainian-Portuguese' (4,916 aligned documents, 1.9M links, 89.3M tokens)" href="download.php?f=Europarl/v8syn/xml/pt-uk.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Ukrainian-Romanian' (2,454 aligned documents, 0.4M links, 16.9M tokens)" href="download.php?f=Europarl/v8syn/xml/ro-uk.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Ukrainian-Slovak' (3,634 aligned documents, 0.6M links, 24.6M tokens)" href="download.php?f=Europarl/v8syn/xml/sk-uk.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Ukrainian-Slovenian' (3,587 aligned documents, 0.6M links, 23.9M tokens)" href="download.php?f=Europarl/v8syn/xml/sl-uk.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Ukrainian-Somali' (5,689 aligned documents, 2.3M links, 105.2M tokens)" href="download.php?f=Europarl/v8syn/xml/so-uk.xml.gz">ces</a></td>
-<td><a rel="nofollow" title="sentence alignments for 'Ukrainian-Swedish' (4,882 aligned documents, 1.8M links, 78.1M tokens)" href="download.php?f=Europarl/v8syn/xml/sv-uk.xml.gz">ces</a></td>
+<tr><th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/uk.zip">uk</a></th>
+<td>5,699</td><td>46.9M</td><td>2.3M</td><td bgcolor='#e9ffcb'><a rel="nofollow" title="sentence alignments for 'Ukrainian-Bulgarian' (2,454 aligned documents0.4M links16.7M tokens)" href="download.php?f=Europarl/v8syn/xml/bg-uk.xml.gz">ces</a></td>
+<td bgcolor='#e4ffc8'><a rel="nofollow" title="sentence alignments for 'Ukrainian-Czech' (3,663 aligned documents0.6M links24.8M tokens)" href="download.php?f=Europarl/v8syn/xml/cs-uk.xml.gz">ces</a></td>
+<td bgcolor='#d9ffc7'><a rel="nofollow" title="sentence alignments for 'Ukrainian-Danish' (4,858 aligned documents1.9M links83.7M tokens)" href="download.php?f=Europarl/v8syn/xml/da-uk.xml.gz">ces</a></td>
+<td bgcolor='#d9ffc7'><a rel="nofollow" title="sentence alignments for 'Ukrainian-German' (4,730 aligned documents1.9M links83.0M tokens)" href="download.php?f=Europarl/v8syn/xml/de-uk.xml.gz">ces</a></td>
+<td bgcolor='#ddffc6'><a rel="nofollow" title="sentence alignments for 'Ukrainian-Greek' (4,750 aligned documents1.2M links57.6M tokens)" href="download.php?f=Europarl/v8syn/xml/el-uk.xml.gz">ces</a></td>
+<td bgcolor='#d6ffc8'><a rel="nofollow" title="sentence alignments for 'Ukrainian-English' (5,699 aligned documents2.3M links105.7M tokens)" href="download.php?f=Europarl/v8syn/xml/en-uk.xml.gz">ces</a></td>
+<td bgcolor='#d8ffc8'><a rel="nofollow" title="sentence alignments for 'Ukrainian-Basque' (5,207 aligned documents2.1M links80.8M tokens)" href="download.php?f=Europarl/v8syn/xml/eu-uk.xml.gz">ces</a></td>
+<td bgcolor='#d9ffc7'><a rel="nofollow" title="sentence alignments for 'Ukrainian-Finnish' (4,820 aligned documents1.9M links70.4M tokens)" href="download.php?f=Europarl/v8syn/xml/fi-uk.xml.gz">ces</a></td>
+<td bgcolor='#d8ffc7'><a rel="nofollow" title="sentence alignments for 'Ukrainian-French' (4,936 aligned documents2.0M links92.7M tokens)" href="download.php?f=Europarl/v8syn/xml/fr-uk.xml.gz">ces</a></td>
+<td bgcolor='#d7ffc7'><a rel="nofollow" title="sentence alignments for 'Ukrainian-Gaelic' (5,308 aligned documents2.1M links105.3M tokens)" href="download.php?f=Europarl/v8syn/xml/gd-uk.xml.gz">ces</a></td>
+<td bgcolor='#e5ffc9'><a rel="nofollow" title="sentence alignments for 'Ukrainian-Hungarian' (3,587 aligned documents0.6M links23.9M tokens)" href="download.php?f=Europarl/v8syn/xml/hu-uk.xml.gz">ces</a></td>
+<td bgcolor='#d7ffc8'><a rel="nofollow" title="sentence alignments for 'Ukrainian-Icelandic' (5,695 aligned documents2.3M links98.7M tokens)" href="download.php?f=Europarl/v8syn/xml/is-uk.xml.gz">ces</a></td>
+<td bgcolor='#d9ffc7'><a rel="nofollow" title="sentence alignments for 'Ukrainian-Italian' (4,965 aligned documents1.9M links87.3M tokens)" href="download.php?f=Europarl/v8syn/xml/it-uk.xml.gz">ces</a></td>
+<td bgcolor='#d7ffc8'><a rel="nofollow" title="sentence alignments for 'Ukrainian-Georgian' (5,698 aligned documents2.3M links85.9M tokens)" href="download.php?f=Europarl/v8syn/xml/ka-uk.xml.gz">ces</a></td>
+<td bgcolor='#e5ffc9'><a rel="nofollow" title="sentence alignments for 'Ukrainian-Lithuanian' (3,649 aligned documents0.6M links23.0M tokens)" href="download.php?f=Europarl/v8syn/xml/lt-uk.xml.gz">ces</a></td>
+<td bgcolor='#e4ffc8'><a rel="nofollow" title="sentence alignments for 'Ukrainian-Latvian' (3,623 aligned documents0.6M links23.7M tokens)" href="download.php?f=Europarl/v8syn/xml/lv-uk.xml.gz">ces</a></td>
+<td bgcolor='#d8ffc7'><a rel="nofollow" title="sentence alignments for 'Ukrainian-Macedonian' (4,893 aligned documents2.0M links87.4M tokens)" href="download.php?f=Europarl/v8syn/xml/mk-uk.xml.gz">ces</a></td>
+<td bgcolor='#d9ffc7'><a rel="nofollow" title="sentence alignments for 'Ukrainian-Dutch' (4,917 aligned documents1.9M links90.0M tokens)" href="download.php?f=Europarl/v8syn/xml/nl-uk.xml.gz">ces</a></td>
+<td bgcolor='#e5ffc9'><a rel="nofollow" title="sentence alignments for 'Ukrainian-Polish' (3,655 aligned documents0.6M links24.4M tokens)" href="download.php?f=Europarl/v8syn/xml/pl-uk.xml.gz">ces</a></td>
+<td bgcolor='#d9ffc7'><a rel="nofollow" title="sentence alignments for 'Ukrainian-Portuguese' (4,916 aligned documents1.9M links89.3M tokens)" href="download.php?f=Europarl/v8syn/xml/pt-uk.xml.gz">ces</a></td>
+<td bgcolor='#eaffcc'><a rel="nofollow" title="sentence alignments for 'Ukrainian-Romanian' (2,454 aligned documents0.4M links16.9M tokens)" href="download.php?f=Europarl/v8syn/xml/ro-uk.xml.gz">ces</a></td>
+<td bgcolor='#e4ffc8'><a rel="nofollow" title="sentence alignments for 'Ukrainian-Slovak' (3,634 aligned documents0.6M links24.6M tokens)" href="download.php?f=Europarl/v8syn/xml/sk-uk.xml.gz">ces</a></td>
+<td bgcolor='#e5ffc9'><a rel="nofollow" title="sentence alignments for 'Ukrainian-Slovenian' (3,587 aligned documents0.6M links23.9M tokens)" href="download.php?f=Europarl/v8syn/xml/sl-uk.xml.gz">ces</a></td>
+<td bgcolor='#d6ffc8'><a rel="nofollow" title="sentence alignments for 'Ukrainian-Somali' (5,689 aligned documents2.3M links105.2M tokens)" href="download.php?f=Europarl/v8syn/xml/so-uk.xml.gz">ces</a></td>
+<td bgcolor='#d9ffc6'><a rel="nofollow" title="sentence alignments for 'Ukrainian-Swedish' (4,882 aligned documents1.8M links78.1M tokens)" href="download.php?f=Europarl/v8syn/xml/sv-uk.xml.gz">ces</a></td>
 <th>uk</th>
 <th></th>
-<th><a rel="nofollow" href="download.php?f=Europarl/v8syn/raw/uk.zip">uk</a></th></tr>
+<th>uk</th></tr>
 <tr><th></th>
 <th>bg</th>
 <th>cs</th>
@@ -862,6 +863,6 @@
 </td><td bgcolor="#d6ffc8"><a rel="nofollow" title='Ukrainian-Slovenian (588,238 sentence pairs, 23.92M words) - Moses format' href="download.php?f=Europarl/v8syn/moses/sl-uk.txt.zip">0.6M</a>
 </td><td bgcolor="#c3ffc3"><a rel="nofollow" title='Ukrainian-Somali (2,329,733 sentence pairs, 105.16M words) - Moses format' href="download.php?f=Europarl/v8syn/moses/so-uk.txt.zip">2.3M</a>
 </td><td bgcolor="#c7ffc7"><a rel="nofollow" title='Ukrainian-Swedish (1,803,496 sentence pairs, 78.09M words) - Moses format' href="download.php?f=Europarl/v8syn/moses/sv-uk.txt.zip">1.8M</a>
-</td><td></td></tr></table></div><p>Note that TMX files only contain unique translation units and, therefore, the number of aligned units is smaller than for the distributions in Moses and XML format. Moses downloads include all non-empty alignment units including duplicates. Token counts for each language also include duplicate sentences and documents.<p><hr><h3>Disclaimer</h3> <ul> <li>We do not own any of the text from which the data has been extracted.</li> <li>We only offer files that we believe we are free to redistribute. If any doubt occurs about the legality of any of our file downloads we will take them off right away after contacting us.</li> </ul> <h3>Notice and take down policy</h3> Notice: Should you consider that our data contains material that is owned by you and should therefore not be reproduced here, please: <ul> <li>Clearly identify yourself, with detailed contact data such as an address, telephone number or email address at which you can be contacted.</li> <li>Clearly identify the copyrighted work claimed to be infringed.</li> <li>Clearly identify the material that is claimed to be infringing and information reasonably sufficient to allow us to locate the material.</li> <li>And contact the OPUS project at the following email address: opus-project at helsinki.fi.</li> </ul> Take down: We will comply to legitimate requests by removing the affected sources from the next release of the corpus.<div class="footer"></div>
+</td><td></td></tr></table></div><p>Moses downloads include all non-empty alignment units including duplicates. Token counts for each language also include duplicate sentences and documents and non-aligned sentences.<p><hr><h3>Disclaimer</h3> <ul> <li>We do not own any of the text from which the data has been extracted.</li> <li>We only offer files that we believe we are free to redistribute. If any doubt occurs about the legality of any of our file downloads we will take them off right away after contacting us.</li> </ul> <h3>Notice and take down policy</h3> Notice: Should you consider that our data contains material that is owned by you and should therefore not be reproduced here, please: <ul> <li>Clearly identify yourself, with detailed contact data such as an address, telephone number or email address at which you can be contacted.</li> <li>Clearly identify the copyrighted work claimed to be infringed.</li> <li>Clearly identify the material that is claimed to be infringing and information reasonably sufficient to allow us to locate the material.</li> <li>And contact the OPUS project at the following email address: opus-project at helsinki.fi.</li> </ul> Take down: We will comply to legitimate requests by removing the affected sources from the next release of the corpus.<div class="footer"></div>
 </body>
 </html>
