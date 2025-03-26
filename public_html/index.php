@@ -28,40 +28,11 @@
     <h3>Latest News</h3>
     <ul>
          <li><a href="https://github.com/Helsinki-NLP/synOPUS">synOPUS on GitHub</a></li>
-      <li>2021-12-08: New: <a href="liv4ever.php">Liv4ever</a> and <a href="ELITR-ECA.php">ELITR-ECA</a></li>
-      <li>2021-06-28: New: <a href="CCMatrix.php">CCMatrix</a></li>
-      <li>2021-06-11: Updated: <a href="ParaCrawl-v8.php">ParaCrawl</a> and <a href="MultiParaCrawl-v8.php">MultiParaCrawl</a></li>
-      <li>2021-04-02: New: <a href="MT560.php">MT560 dataset</a></li>
-      <li>2021-02-10: New: <a href="CCAligned.php">CCAligned</a> and <a href="MultiCCAligned.php">MultiCCAligned</a></li>
-      <li>2020-11-27: New: <a href="GoURMET.php">GoURMET</a> and <a href="MIZAN.php">MIZAN</a></li>      
-      <li>2020-10-31: New: <a href="EuroPat.php">EuroPat</a> and <a href="tico-19.php">tico-19</a></li>
-      <li>2020-06-30: New: <a href="opus-100.php">OPUS-100 corpus</a></li>
-      <li>2020-05-22: New: <a href="ELRC.php">ELRC public</a></li>
-      <li>2019-10-16: New: <a href="MultiParaCrawl-v5.php">MultiParaCrawl</a></li>
-      <li>2019-10-14: New: <a href="infopankki-v1.php">Infopankki v1</a></li>
-<!--       <li>2019-09-28: Update: <a href="ParaCrawl-v5.php">ParaCrawl v5</a></li> -->
-<!--      <li>2019-08-28: <a href="JW300.php">JW300 corpus</a> added</li> -->
-<!-- 
-    <li>2019-08-14: Various new and updated corpora</li>
--->
-    <li>2018-10-06: New corpus: <a href="memat.php">memat</a> (Xhosa/English)</li>
-    <li>2018-02-15: New corpora: <a href="ParaCrawl.php">ParaCrawl</a>, <a href="XhosaNavy.php">XhosaNavy</a></li>
-    <li>2017-11-06: New version: <a href="OpenSubtitles-v2018.php">OpenSubtitles2018</a></li>
-<!--
-    <li>2017-11-01: New URL: <a href="http://opus.nlpl.eu">http://opus.nlpl.eu</a></li>
-    <li>2016-01-08: New version: <a href="OpenSubtitles-v2016.php">OpenSubtitles2016</a></li>
-    <li>2015-10-15: New versions of <a href="TED2013.php">TED2013</a>, <a href="News-Commentary-v9.1.php">NCv9</a></li>
-    <li>2014-10-24: New: <a href="JRC-Acquis.php">JRC-Acquis</a></li>
-    <li>2014-10-20: <a href="News-Commentary-v9.0.php">NCv9</a>, <a href="TED2013.php">TED talks</a>, <a href="DGT.php">DGT</a>, <a href="WMT-News.php">WMT</a></li>
-    <li>2014-08-21: New: <a href="Ubuntu.php">Ubuntu</a>, <a href="GNOME.php">GNOME</a></li>
-    <li>2014-07-30: New: <a href="Books-v1.php">Translated Books</a></li>
-    <li>2014-07-27: New: <a href="DOGC-v2.php">DOGC</a>, <a href="Tanzil.php">Tanzil</a></li>
-    <li>2014-05-07: Parallel coref corpus <a href="/ParCor">ParCor</a></li>
--->
+      <li>2025-03-26: New: synthetic <a href="Europarl.php">Europarl</a></li>
     </ul>
   </div>
 
-  <h1><img src="img/opus_medium.png" width="160"> ... the open parallel corpus</h1>
+  <h1><img src="img/opus_medium.png" width="160"> ... the open corpus of synthetic parallel corpora</h1>
 
 <!--
 <p <p style="color:red;font-weight:bold">IMPORTANT NOTE: ALL DOWNLOADS ARE NOT AVAILABLE AT THE MOMENT. WE ARE WORKING ON THE PROBLEM ...</p>
@@ -75,7 +46,7 @@
   ?>helsinki.fi
   &gt;</p>
 
-  <p><?php include("search-api.php"); ?></p><a name="download" id="download"></a>
+  <p><?php include("search.php"); ?></p><a name="download" id="download"></a>
 
 <!--
   <p>
@@ -92,21 +63,7 @@
   <table align="center" width="100%">
     <tr>
       <td valign="top">
-        <b>Search &amp; Browse</b>
-
-        <ul>
-          <li><a href="/bin/opuscqp.pl">OPUS multilingual search interface</a></li>
-	  <!--
-          <li><a href="/bin/opusudcqp.pl">OPUS UD-parsed search interface</a></li>
-	  -->
-          <li><a href="/cwb/Europarl7/frames-cqp.html">Europarl v7 search interface</a></li>
-          <li><a href="/cwb/Europarl/frames-cqp.html">Europarl v3 search interface</a></li>
-          <li><a href="/cwb/OpenSubtitles/frames-cqp.html">OpenSubtitles search interface</a></li> 
-          <li><a href="/cwb/OpenSubtitles2018/frames-cqp.html">OpenSubtitles 2018 search interface</a></li>
-          <li><a href="/cwb/EUconst/frames-cqp.html">EUconst search interface</a></li>
-          <li><a href="lex.php">Word Alignment Database</a> (<a href="/lex-old.php">old DB</a>)</li>
-        </ul>
-
+ 
         <b>Tools &amp; Info</b>
         <ul>
           <li><a href="/trac/wiki">OPUS Wiki</a></li>
@@ -166,86 +123,10 @@
 	  <tr>
 	    <td>
         <ul>
-          <li><a href="ada83.php">ada83</a> - Ada 83 manuals</li>
-          <li><a href="Bianet.php">Bianet</a> - Translated Turkish articles</li>
-          <li><a href="bible-uedin.php">Bible (uedin)</a> - Collection of Bible translations</li>
-          <li><a href="Books.php">Books</a> - A collection of translated literature</li>
-          <li><a href="CAPES.php">CAPES</a> - Thesis and dissertation abstracts</li>
-	  <li><a href="CCAligned.php">CCAligned</a> - Parallel documents from Common Crawl</li>
-	  <li><a href="CCMatrix.php">CCMatrix</a> - Parallel sentences from Common Crawl</li>
-          <li><a href="DGT.php">DGT</a> - A collection of EU TMs provided by the JRC</li>
-          <li><a href="DOGC.php">DOGC</a> - Documents from the Catalan Goverment</li>
-          <li><a href="ECB.php">ECB - European Central Bank corpus</a></li>
-          <li><a href="EhuHac.php">EhuHac</a> - Hizkuntzen Arteko Corpusa</li>
-          <li><a href="EiTB-ParCC.php">EiTB-ParCC</a> - Parallel Corpus of Comparable News</li>
-          <li><a href="Elhuyar.php">Elhuyar corpus</a></li>
-          <li><a href="ELRC.php">ELRC public corpora</a></li>
-          <li><a href="EMEA.php">EMEA - European Medicines Agency documents</a></li>
-          <li><a href="EUbookshop.php">The EU bookshop corpus</a></li>
-          <li><a href="EUconst.php">EUconst - The European constitution</a></li>
           <li><a href="Europarl.php">EUROPARL - European Parliament Proceedings</a></li>
-          <li><a href="EuroPat.php">EUROPAT - Parallel corpus of patents</a></li>	  
-          <li><a href="Finlex.php">Finlex</a> - Legislative and other judicial information of Finland</li>
-          <li><a href="fiskmo.php">fiskmo</a> - Data from the <a href="https://blogs.helsinki.fi/fiskmo-project/">fiskmö project</a></li>
-          <li><a href="giga-fren.php">giga-fren</a> - French-English Gigal-Word Corpus</li>
-          <li><a href="GlobalVoices.php">Global Voices</a> - News stories in various languages</li>
-          <li><a href="GNOME.php">GNOME</a> - GNOME localization files</li>
-          <li><a href="GoURMET.php">GoURMET</a> - Parallel data from web crawls</li>	  
-          <li><a href="hrenWaC.php">The Croatian - English WaC corpus</a></li>
-	  <li><a href="infopankki-v1.php">Infopankki</a></li>
-          <li><a href="JRC-Acquis.php">JRC-Acquis- legislative EU texts</a></li>
-<!--          <li><a href="JW300.php">JW300 multilingual corpus</a></li> -->
-          <li><a href="KDE4.php">KDE4 - KDE4 localization files (v.2)</a></li>
-          <li><a href="KDEdoc.php">KDEdoc - the KDE manual corpus</a></li>
-          <li><a href="MBS.php">MBS - Belgisch Staatsblad corpus</a></li>
-          <li><a href="memat.php">memat - Xhosa/English parallel data</a></li>
-          <li><a href="MIZAN.php">MIZAN - A large Persian-English corpus</a></li>	  
-          <li><a href="MontenegrinSubs.php">MontenegrinSubs - Montenegrin movie subtitles</a></li>
         </ul>
 	    </td>
 	    <td>
-        <ul>
-          <li><a href="MultiCCAligned.php">MultiCCAligned</a> - Pivot-based Bitexts from CCAligned</li>	
-          <li><a href="MultiParaCrawl.php">MultiParaCrawl</a> - Non-English Bitexts from ParaCrawl</li>
-          <li><a href="MultiUN.php">MultiUN</a> - Translated UN documents</li>
-          <li><a href="MT560.php">MT560</a> - A large MT dataset for &gt;500 languages</li>
-          <li><a href="News-Commentary.php">News Commentary</a> (<a href="News-Commentary-v1.php">v11</a>, <a href="News-Commentary-v1.php">v9.1</a>,<a href="News-Commentary-v9.php">v9</a>)</li>
-          <li><a href="OfisPublik.php">OfisPublik</a> - Breton - French parallel texts</li>
-          <li><a href="OpenOffice.php">OO - the OpenOffice.org corpus</a> (<a href="OpenOffice-v2.php">v2</a>)</li>
-          <li><a href="OpenSubtitles.php">OpenSubtitles</a> - translated subtitles
-	    (<a href="OpenSubtitles-v1.php">v1</a>,
-	    <a href="OpenSubtitles-v2011.php">v2011</a>,
-	    <a href="OpenSubtitles-v2012.php">v2012</a>,
-	    <a href="OpenSubtitles-v2013.php">v2013</a>,
-	    <a href="OpenSubtitles-v2016.php">v2016</a>)</li>
-          <li><a href="opus-100.php">OPUS-100 corpus</a></li>
-          <li><a href="ParaCrawl.php">ParaCrawl corpus</a></li>
-	  <li><a href="/ParCor">ParCor - A Parallel Pronoun-Coreference Corpus</a></li>
-          <li><a href="PHP.php">PHP - the PHP manual corpus</a></li>
-          <li><a href="QED.php">QED</a> - The QCRI Educational Domain Corpus</li>
-          <li><a href="RF.php">Regeringsf&ouml;rklaringen - a tiny example corpus</a></li>
-          <li><a href="sardware.php">The sardware corpus</a></li>
-          <li><a href="SciELO.php">SciELO</a> - Artciles from SciELO</li>
-          <li><a href="SETIMES.php">SETIMES</a> - A parallel corpus of the Balkan languages</li>
-          <li><a href="SPC.php">SPC - Stockholm Parallel Corpora</a></li>
-          <li><a href="Tanzil.php">Tanzil</a> - A collection of Quran translations</li>
-          <li><a href="Tatoeba.php">Tatoeba</a> - A DB of translated sentences</li>
-          <li><a href="TedTalks.php">TedTalks hr-en</a></li>
-          <li><a href="TED2013.php">TED Talks 2013</a></li>
-          <li><a href="TED2020.php">TED Talks 2020</a></li>
-          <li><a href="tico-19.php">The tico-19 corpus</a></li>	  
-          <li><a href="TildeMODEL.php">The Tilde MODEL corpus</a></li>
-          <li><a href="TEP.php">TEP</a> - The Tehran English-Persian subtitle corpus</li>
-          <li><a href="Ubuntu.php">Ubuntu</a> - Ubuntu localization files</li>
-          <li><a href="UN.php">UN</a> - Translated UN documents</li>
-          <li><a href="UNPC.php">UNPC</a> - The United Nations Parallel Corpus</li>
-          <li><a href="WikiMatrix.php">WikiMatrix</a> - Parallel sentences extracted from Wikipedia</li>	  
-          <li><a href="wikimedia.php">Wikimedia</a> - Documents from the Wikimedia Translation project</li>
-          <li><a href="Wikipedia.php">Wikipedia</a> - translated sentences from Wikipedia</li>
-          <li><a href="WikiSource.php">WikiSource</a> - (small en-sv sample only</li>
-          <li><a href="WMT-News.php">WMT News Test Sets</a></li>
-          <li><a href="XhosaNavy.php">The Xhosa - English Navy corpus</li>
-        </ul><br>
 	    </td>
 	  </tr>
 	</table>
