@@ -32,7 +32,7 @@
     </ul>
   </div>
 
-  <h1><img src="img/opus_medium.png" width="160"> ... the open corpus of synthetic parallel corpora</h1>
+  <h1><img src="img/synopus_medium.png" width="160"> ... the open corpus of synthetic parallel corpora</h1>
 
   <p>OPUS is a growing collection of translated texts. synOPUS is a new edition that provides synthetic data sets, i.e. data that has (partially) been generated, for example, by translating text into other languages using machine translation tools or large language models. We used several tools to compile the current collection. All pre-processing is done automatically. No manual corrections have been carried out.</p>
 
