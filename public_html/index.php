@@ -27,23 +27,22 @@
   <div class="news">
     <h3>Latest News</h3>
     <ul>
-         <li><a href="https://github.com/Helsinki-NLP/synOPUS">synOPUS on GitHub</a></li>
-      <li>2025-03-26: New: synthetic <a href="Europarl.php">Europarl</a></li>
+      <li>2025-03-28: <a href="https://opus.nlpl.eu/legacy/synOpusExplorer/">synOPUS Explorer</a></li>
+      <li>2025-03-26: <a href="Europarl.php">synthetic Europarl</a></li>
+      <li>2025-03-25: <a href="https://github.com/Helsinki-NLP/synOPUS">synOPUS on GitHub</a></li>
     </ul>
   </div>
 
-  <h1><img src="img/synopus_medium.png" width="160"> ... the open corpus of synthetic parallel corpora</h1>
+  <h1><img src="img/synopus_medium.png" width="160"> the synthetic open parallel corpus</h1>
 
-  <p>OPUS is a growing collection of translated texts. synOPUS is a new edition that provides synthetic data sets, i.e. data that has (partially) been generated, for example, by translating text into other languages using machine translation tools or large language models. We used several tools to compile the current collection. All pre-processing is done automatically. No manual corrections have been carried out.</p>
+  <p><a href="https://opus.nlpl.eu">OPUS</a> is a growing collection of translated texts. <b>synOPUS</b> is a new edition that provides synthetic data sets, i.e. data that has (partially) been generated, for example, by translating text into other languages using machine translation tools or large language models. We used several tools to compile the current collection. All pre-processing is done automatically. No manual corrections have been carried out.</p>
 
-  <p>The synOPUS collection is growing! Check this page from time to time to see new data arriving ...<br>
-  Contributions are very welcome! Please contact &lt;opus-project<?php
+  <p>Contributions are very welcome! Please contact &lt;opus-project<?php
      echo '&#64;'; 
   ?>helsinki.fi
   &gt;</p>
 
   <a name="download" id="download"></a>
-
 
   <table align="center" width="100%">
     <tr>
@@ -51,65 +50,23 @@
  
         <b>Tools &amp; Info</b>
         <ul>
-          <li><a href="/trac/wiki">OPUS Wiki</a></li>
-	  <li><a href="http://opus.nlpl.eu/opusapi">OPUS API</a></li>
+	  <li><a href="https://opus.nlpl.eu/legacy/synOpusExplorer/">synOPUS Explorer</a></li>
+	  <li><a href="https://pypi.org/project/opustools/">OPUS tools</a> (Python package)</li>
+	  <li><a href="https://github.com/Helsinki-NLP/OpusFilter">OpusFilter</a></li>
 	  <li><a href="https://github.com/Helsinki-NLP/OPUS-MT">OPUS-MT</a></li>
 	  <li><a href="https://github.com/Helsinki-NLP/OPUS-CAT">OPUS-CAT</a></li>
 	  <li><a href="https://github.com/Helsinki-NLP/Tatoeba-Challenge">The Tatoeba MT Challenge</a></li>
-	  <li><a href="https://github.com/Helsinki-NLP/OpusFilter">OpusFilter</a></li>
-	  <li><a href="https://opus-repository.ling.helsinki.fi/">OPUS interface</a> (<a href="https://github.com/Helsinki-NLP/OPUS-interface">@github</a>)</li>
-	  <li><a href="https://translate.ling.helsinki.fi">OPUS translator</a> (<a href="https://github.com/Helsinki-NLP/OPUS-translator">@github</a>)</li>
-	  <li><a href="https://pypi.org/project/opustools/">OPUS tools</a> (Python package)</li>
-	  <li><a href="https://github.com/Helsinki-NLP/opus-tools">OPUS tools</a> (Perl package)</li>
-	  <li><a href="https://github.com/thammegowda/mtdata">mtdata - another tool for retrieving data</a></li>
-	  <li><a href="https://github.com/robertostling/eflomal">Eflomal word aligner</a> and <a href="eflomal-priors.html">pre-trained priors</a></li>
-          <li><a href="https://github.com/Helsinki-NLP/Uplug">Uplug</a> (<a href="https://bitbucket.org/tiedemann/uplug">@bitbucket</a>)</li>
-	  <li><a href="https://github.com/Helsinki-NLP/LanguageCodes">ISO language codes</a></li>
-	  <!-- <li><a href="https://github.com/yonkornilov/opus-api">OPUS API</a> by Yonathan Koren</li> -->
-        </ul>
-
-
-<b>Some Projects using OPUS</b>
-
-        <ul>
-	  <li><a href="http://www.letsmt.eu">Let'sMT!</a> - On-line SMT toolkit</a></li>
-	  <li><a href="https://libretranslate.com/">LibreTranslate</a> powered by <a href="https://github.com/argosopentech/argos-translate/">argos-translate</a></li>
-          <li><a href="http://www.casmacat.eu">CASMACAT</a> - Computer-Aided Translation</li>
-	  <li><a href="http://www.statmt.org/wmt16/">WMT</a> - A conference on statistical MT</a></li>
-	  <li><a href="http://context.reverso.net/translation">Reverso</a> - Translations in context</li>
-	  <li><a href="http://www.sketchengine.co.uk">SketchEngine</a> - Tools for lexicographers</a></li>
-	  <li><a href="https://subasub.com">sub-a-sub</a> - Translations in colloquial language</li>
-	</ul>
-
-
-<b>Links to other Resources</b>
-
-        <ul>
-	  <li>The <a href="https://www.paracrawl.eu/">ParaCrawl project</a></li>
-          <li>The <a href="http://statmt.org/europarl/">EuroParl corpus</a> and <a href="http://www.statmt.org/wmt13/translation-task.html">WMT data</a></li>
-	  <li><a href="https://pub.cl.uzh.ch/wiki/public/costep/start">CoStEP</a>: A cleaner and structured version of the Europarl corpus</li>
-	  <li><a href="https://conferences.unite.un.org/uncorpus">United Nations Parallel Corpus</a></li>
-<!--          <li><a href="http://ipsc.jrc.ec.europa.eu/?id=198">JRC-Acquis</a> and related resources</li>-->
-<!--	  <li><a href="http://casmacat.eu/corpus/global-voices.html">Global Voices Parallel Corpus</a> (CASMACAT)</li>-->
-          <li><a href="http://paralela.clarin-pl.eu">Parallel corpora at PELCRA</a> <!-- (<a href="http://pelcra.pl/res/parallel/word-aligned/">word-aligned data</a>) --> </li>
-	  <li><a href="http://nlp2ct.cis.umac.mo/um-corpus/">UM - a domain specific Chinese-English parallel corpus</a></li>
-          <li><a href="http://project.letsmt.eu/">Let's MT!</a> and its <a href="/letsmt-trac/">Resource Repository Software</a></li>
-
-          <li><a href="/letsmt-trac/wiki/DataProcessingTools">Links</a> to alignment and MT-related tools</li>
-
-          <li><a href="/letsmt-trac/wiki/MTResources">Links</a> to other MT-related resources</li>
         </ul>
       </td>
 
       <td valign="top">
-        <p><b>Sub-corpora (downloads &amp; infos):</b><br></p>
-
+        <p><b>Released Datasets</b><br></p>
 	<table>
 	  <tr>
 	    <td>
-        <ul>
-          <li><a href="Europarl.php">EUROPARL - European Parliament Proceedings</a></li>
-        </ul>
+              <ul>
+                <li><a href="Europarl.php">EUROPARL - European Parliament Proceedings</a></li>
+              </ul>
 	    </td>
 	    <td>
 	    </td>
