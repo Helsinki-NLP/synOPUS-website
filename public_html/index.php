@@ -48,14 +48,14 @@
     <tr>
       <td valign="top">
  
-        <b>Tools &amp; Info</b>
+        <b>Tools &amp; Resources</b>
         <ul>
 	  <li><a href="https://opus.nlpl.eu/legacy/synOpusExplorer/">synOPUS Explorer</a></li>
-	  <li><a href="https://pypi.org/project/opustools/">OPUS tools</a> (Python package)</li>
+	  <li><a href="https://pypi.org/project/opustools/">OpusTools</a></li>
 	  <li><a href="https://github.com/Helsinki-NLP/OpusFilter">OpusFilter</a></li>
 	  <li><a href="https://github.com/Helsinki-NLP/OPUS-MT">OPUS-MT</a></li>
 	  <li><a href="https://github.com/Helsinki-NLP/OPUS-CAT">OPUS-CAT</a></li>
-	  <li><a href="https://github.com/Helsinki-NLP/Tatoeba-Challenge">The Tatoeba MT Challenge</a></li>
+	  <li><a href="https://github.com/Helsinki-NLP/Tatoeba-Challenge">The Tatoeba Translation Challenge</a></li>
         </ul>
       </td>
 
