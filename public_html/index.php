@@ -65,7 +65,25 @@
 	  <tr>
 	    <td>
               <ul>
-                <li><a href="Europarl.php">EUROPARL - European Parliament Proceedings</a></li>
+<?php
+$corpora = array();
+if ($handle = opendir('.')) {
+    while ($entry = readdir($handle)) {
+        if (substr_compare($entry, '.php', -strlen('.php'))==0){
+            if (is_link($entry)){
+                array_push($corpora,basename($entry,'.php'));
+            }
+        }
+    }
+    closedir($handle);
+    asort($corpora);
+    foreach ($corpora as $corpus){
+        echo "<li><a href='$corpus.php'>";
+        echo $corpus;
+        echo "</a></li>\n";
+    }
+}
+?>
               </ul>
 	    </td>
 	    <td>
