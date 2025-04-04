@@ -11,19 +11,28 @@
 <body>
 <div class="header"><?php include("header.php"); ?></div><script>
 function toggleSection(c) {
+  var d = ["samples","download-xml","download-tmx","download-moses"];
+  for (var i = 0; i < d.length; i++) {
+    if ( d[i] != c) {
+      var y = document.getElementById(d[i]);
+      if (y.style.display != "none"){
+        y.style.display = "none";
+      }
+    }
+  }
   var x = document.getElementById(c);
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
+  if (x.style.display != "block"){
+     x.style.display = "block";
   }
 }
-</script><h1>Europarl v8syn</h1>This is a collection of automatically translated documents from English Europarl v8 into other languages using GPT-4o. This release includes translations from English into Basque (eu), Scottish Gaelic (gd), Icelandic (is), Georgian (ka), Macedonian (mk), Somali (so) and Ukrainian (uk). The translated files are also linked to other official languages in the Europarl corpus v8 by pivoting the links through the English documents used as input. The translations of the languages listed above are produced by prompting <a href="https://openai.com/index/gpt-4o-system-card/">GPT-4o provided by OpenAI</a>. When downloading the data you confirm that you will follow the <a href="https://openai.com/policies/usage-policies/">usage policies and conditions by OpenAI</a>.<p>28 languages, 154 bitexts</br>
+</script><h1>Europarl v8syn</h1>This is a collection of automatically translated documents from English Europarl v8 into other languages using GPT-4o. This release includes translations from English into Basque (eu), Scottish Gaelic (gd), Icelandic (is), Georgian (ka), Macedonian (mk), Somali (so) and Ukrainian (uk). The translated files are also linked to other official languages in the Europarl corpus v8 by pivoting the links through the English documents used as input. The translations of the languages listed above are produced by prompting <a href="https://openai.com/index/gpt-4o-system-card/">GPT-4o provided by OpenAI</a>. When downloading the data you confirm that you agree with the terms and conditions as defined by the <a href="https://openai.com/policies/usage-policies/">usage policies of OpenAI</a>.<p>28 languages, 154 bitexts</br>
 total number of files: 245,964</br>
 total number of tokens: 1.0G</br>
 total number of sentences: 46.2M</br></p>
-Please <a href="http://opus.lingfil.uu.se/LREC2012.txt">cite the following article</a> if you use the OPUS packages and downloads in your own work:<br/> J. Tiedemann, 2012, <a href="http://www.lrec-conf.org/proceedings/lrec2012/pdf/463_Paper.pdf"><i>Parallel Data, Tools and Interfaces in OPUS.</i></a> In Proceedings of the 8th International Conference on Language Resources and Evaluation (LREC 2012)<br/><h3>Release history:</h3><p><ul><li><a href="Europarl-v8syn.php">Europarl v8syn</a></li></ul></p><h3>Download</h3><p>Below you can download data files for all language pairs in different formats and with different kind of annotation (if available). You can click on the various links as explained below.</p><p></p><p><a onclick="toggleSection('samples')">Corpus sample files (click to toggle)</a></p><div id='samples' style='display: none;'>
-<div class="sample"><table border="0" cellpadding="0">
+Please <a href="http://opus.lingfil.uu.se/LREC2012.txt">cite the following article</a> if you use the OPUS packages and downloads in your own work:<br/> J. Tiedemann, 2012, <a href="http://www.lrec-conf.org/proceedings/lrec2012/pdf/463_Paper.pdf"><i>Parallel Data, Tools and Interfaces in OPUS.</i></a> In Proceedings of the 8th International Conference on Language Resources and Evaluation (LREC 2012)<br/><h3>Download</h3><p>Below you can download data files for all language pairs in different formats and with different kind of annotation (if available). You can click on the various links as explained below.</p><p></p><ul><li><a onclick="toggleSection('samples')">Corpus sample files (click to show)</a></li><li><a onclick="toggleSection('download-xml')">Download corpus in their native XML format (click to show)</a></li>
+<li><a onclick="toggleSection('download-moses')">Download corpus in plain text format (click to show)</a></li>
+</ul><div id='samples' style='display: none;'>
+<p>Links to sample files from monolingual corpus files (language-ID links) and bitexts (click on 'view')</p><p><div class="sample"><table border="0" cellpadding="0">
 <tr><th></th>
 <th><a rel="nofollow" href="Europarl/v8syn/eu_sample.html">eu</a></th>
 <th><a rel="nofollow" href="Europarl/v8syn/fi_sample.html">fi</a></th>
@@ -119,13 +128,12 @@ Please <a href="http://opus.lingfil.uu.se/LREC2012.txt">cite the following artic
 <th><a rel="nofollow" href="Europarl/v8syn/uk_sample.html">uk</a></th>
 <th></th></tr>
 </table>
-</div></div><p><a onclick="toggleSection('download-xml')">Download corpus in their native XML format (click to toggle)</a>
-<div id='download-xml'>You need to download the monolingual corpus files and the standoff alignment files between them:
+</div></p></div><div id='download-xml'><p>You need to download the monolingual corpus files and the standoff alignment files between them:
 <ul><li>Links on the language IDs of the top row and first column: zip-files of untokenized monolingual XML files</li>
 <li>Links on the language IDs of the bottom row and last column: zip-files of tokenized monolingual XML files (if they exist)</li>
 <li>Links in the table: Sentence alignment files in XCES Align format (standoff annotation)</li>
 </ul>
-</p>
+</p><p>
 <div class="sample"><table border="0" cellpadding="0">
 <tr><th></th>
 <th><a rel="nofollow" title="eu.zip: untokenized XML documents (5,207 files, 2.2M sentences, 38.6M tokens)" href="download.php?f=Europarl/v8syn/raw/eu.zip">eu</a></th>
@@ -722,8 +730,7 @@ Please <a href="http://opus.lingfil.uu.se/LREC2012.txt">cite the following artic
 <th>uk</th>
 <th></th></tr>
 </table>
-</div></div><p><a onclick="toggleSection('download-moses')">Download corpus in plain text format (click to toggle)</a>
-<div id='download-moses' style='display: none;'>Links to zip-files with aligned plain text files, one per language (Moses format).</p>
+</div></p></div><div id='download-moses' style='display: none;'><p>Links to zip-files with aligned plain text files, one per language (Moses format).</p><p>
 <div class="sample"><table border="0" cellpadding="0">
 <tr><th></th>
 <th>eu</th>
@@ -1320,8 +1327,7 @@ Please <a href="http://opus.lingfil.uu.se/LREC2012.txt">cite the following artic
 <th>uk</th>
 <th></th></tr>
 </table>
-</div></div><p><a onclick="toggleSection('download-tmx')">Download corpus in TMX format (click to toggle)</a>
-<div id='download-tmx' style='display: none;'>Links to compressed TMX files, one per language pair.</p>
+</div></p></div><div id='download-tmx' style='display: none;'><p>Links to compressed TMX files, one per language pair.</p><p>
 <div class="sample"><table border="0" cellpadding="0">
 <tr><th></th>
 <th>eu</th>
@@ -1918,6 +1924,6 @@ Please <a href="http://opus.lingfil.uu.se/LREC2012.txt">cite the following artic
 <th>uk</th>
 <th></th></tr>
 </table>
-</div></div><hr><h3>Disclaimer</h3> <ul> <li>We do not own any of the text from which the data has been extracted.</li> <li>We only offer files that we believe we are free to redistribute. If any doubt occurs about the legality of any of our file downloads we will take them off right away after contacting us.</li> </ul> <h3>Notice and take down policy</h3> Notice: Should you consider that our data contains material that is owned by you and should therefore not be reproduced here, please: <ul> <li>Clearly identify yourself, with detailed contact data such as an address, telephone number or email address at which you can be contacted.</li> <li>Clearly identify the copyrighted work claimed to be infringed.</li> <li>Clearly identify the material that is claimed to be infringing and information reasonably sufficient to allow us to locate the material.</li> <li>And contact the OPUS project at the following email address: opus-project at helsinki.fi.</li> </ul> Take down: We will comply to legitimate requests by removing the affected sources from the next release of the corpus.<div class="footer"></div>
+</div></p></div><hr><h3>Disclaimer</h3> <ul> <li>We do not own any of the text from which the data has been extracted.</li> <li>We only offer files that we believe we are free to redistribute. If any doubt occurs about the legality of any of our file downloads we will take them off right away after contacting us.</li> </ul> <h3>Notice and take down policy</h3> Notice: Should you consider that our data contains material that is owned by you and should therefore not be reproduced here, please: <ul> <li>Clearly identify yourself, with detailed contact data such as an address, telephone number or email address at which you can be contacted.</li> <li>Clearly identify the copyrighted work claimed to be infringed.</li> <li>Clearly identify the material that is claimed to be infringing and information reasonably sufficient to allow us to locate the material.</li> <li>And contact the OPUS project at the following email address: opus-project at helsinki.fi.</li> </ul> Take down: We will comply to legitimate requests by removing the affected sources from the next release of the corpus.<div class="footer"></div>
 </body>
 </html>

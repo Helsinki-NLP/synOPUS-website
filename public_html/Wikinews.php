@@ -1,0 +1,1 @@
+Wikinews-v1syn.php
