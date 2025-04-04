@@ -1,0 +1,1 @@
+Wikiquote-v1syn.php
