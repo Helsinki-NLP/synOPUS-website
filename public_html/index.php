@@ -27,7 +27,7 @@
   <div class="news">
     <h3>Latest News</h3>
     <ul>
-      <li>2025-03-28: <a href="https://opus.nlpl.eu/legacy/synOpusExplorer/">synOPUS Explorer</a></li>
+      <li>2025-03-28: <a href="https://opus.nlpl.eu/synthetic/explore">synOPUS Explorer</a></li>
       <li>2025-03-26: <a href="Europarl.php">synthetic Europarl</a></li>
       <li>2025-03-25: <a href="https://github.com/Helsinki-NLP/synOPUS">synOPUS on GitHub</a></li>
     </ul>
@@ -81,7 +81,7 @@ if ($handle = opendir('.')) {
       <td valign="top">
         <b>Tools &amp; Resources</b>
         <ul>
-	  <li><a href="https://opus.nlpl.eu/legacy/synOpusExplorer/">synOPUS Explorer</a></li>
+	  <li><a href="https://opus.nlpl.eu/synthetic/explore">synOPUS Explorer</a></li>
 	  <li><a href="https://pypi.org/project/opustools/">OpusTools</a></li>
 	  <li><a href="https://github.com/Helsinki-NLP/OpusFilter">OpusFilter</a></li>
 	  <li><a href="https://github.com/Helsinki-NLP/OPUS-MT">OPUS-MT</a></li>
